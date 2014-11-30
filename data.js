@@ -16,15 +16,15 @@ var schedule = [
 {
   date: "12/3",
   author: "morishin",
-  author_url: "#",
+  author_url: "http://morishin.me",
   entry_title: "準備中",
   entry_url: "#"
 },
 {
   date: "12/4",
   author: "kohey18",
-  author_url: "#",
-  entry_title: "準備中",
+  author_url: "https://github.com/kohey18",
+  entry_title: "「hubot start tv」で家のテレビの電源を付ける。",
   entry_url: "#"
 },
 {
