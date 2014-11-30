@@ -62,11 +62,6 @@
           <h2>スケジュール</h2>
           <table class="table table-striped schedule">
             <tr><th>日</th><th>担当</th><th>タイトル</th></tr>
-            <tr><td>12/1</td><td></td><td><a href="#"></a></td></tr>
-            <tr><td>12/2</td><td></td><td><a href="#"></a></td></tr>
-            <tr><td>12/3</td><td></td><td><a href="#"></a></td></tr>
-            <tr><td>12/4</td><td></td><td><a href="#"></a></td></tr>
-            <tr><td>12/5</td><td></td><td><a href="#"></a></td></tr>
           </table>
         </div>
       </div>
@@ -79,6 +74,23 @@
     </footer>
   </div>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="./data.js"></script>
+  <script>
+    $(document).ready(function () {
+      "use strict";
+      var $table = $('table.schedule');
+      var template = _.template('\
+          <tr>\
+          <td><%- date %></td>\
+          <td><a href="<%- author_url %>" target="_blank"><%- author %></td>\
+          <td><a href="<%- entry_url %>" target="_blank"><%- entry_title %></a></td>\
+          </tr>');
+      _.map(schedule, function (item) {
+        $table.append($(template(item)));
+      });
+    });
+  </script>
 </body>
 </html>
