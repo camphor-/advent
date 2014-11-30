@@ -93,8 +93,8 @@ var schedule = [
 {
   date: "12/14",
   author: "kakenn",
-  author_url: "#",
-  entry_title: "準備中",
+  author_url: "http://shuto.info",
+  entry_title: "格安3Dプリンター「DaVinci 2.0」を買ってみた。",
   entry_url: "#"
 },
 {
