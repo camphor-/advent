@@ -99,9 +99,9 @@ var schedule = [
 },
 {
   date: "12/15",
-  author: "準備中",
-  author_url: "#",
-  entry_title: "準備中",
+  author: "ymyzk",
+  author_url: "http://www.ymyzk.com",
+  entry_title: "sphinxcontrib.httpdomain について",
   entry_url: "#"
 },
 {
