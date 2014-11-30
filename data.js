@@ -9,8 +9,8 @@ var schedule = [
 {
   date: "12/2",
   author: "ohmuraken",
-  author_url: "#",
-  entry_title: "準備中",
+  author_url: "https://github.com/ohmuraken",
+  entry_title: "彼女のつくりかた (11月祭にて)",
   entry_url: "#"
 },
 {
