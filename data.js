@@ -30,8 +30,8 @@ var schedule = [
 {
   date: "12/5",
   author: "Shtr28",
-  author_url: "#",
-  entry_title: "準備中",
+  author_url: "https://twitter.com/Shtr28",
+  entry_title: "Python3でお手軽並列計算 ~concurrent.furtures~",
   entry_url: "#"
 },
 {
