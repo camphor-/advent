@@ -10,7 +10,7 @@ var schedule = [
   date: "12/2",
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
-  entry_title: "彼女のつくりかた (11月祭にて)",
+  entry_title: "彼女のつくりかた (京大11月祭にて)",
   entry_url: "http://blog.camph.net/news/howtomakemygirlfriend2/"
 },
 {
