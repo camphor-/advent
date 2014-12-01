@@ -85,8 +85,20 @@
       var template = _.template('\
           <tr>\
           <td><%- date %></td>\
-          <td><a href="<%- author_url %>" target="_blank"><%- author %></td>\
-          <td><a href="<%- entry_url %>" target="_blank"><%- entry_title %></a></td>\
+          <td>\
+          <% if (author_url !== "#") { %>\
+            <a href="<%- author_url %>" target="_blank"><%- author %></a>\
+          <% } else { %>\
+              <%- author %>\
+          <% } %>\
+          </td>\
+          <td>\
+          <% if (entry_url !== "#") { %>\
+            <a href="<%- entry_url %>" target="_blank"><%- entry_title %></a>\
+          <% } else { %>\
+              <%- entry_title %>\
+          <% } %>\
+          </td>\
           </tr>');
       _.map(schedule, function (item) {
         $table.append($(template(item)));
