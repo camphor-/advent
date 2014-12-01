@@ -17,7 +17,7 @@ var schedule = [
   date: "12/3",
   author: "morishin",
   author_url: "http://morishin.me",
-  entry_title: "CAMPHOR- の Yo 活用",
+  entry_title: "CAMPHOR-のYo活用",
   entry_url: "#"
 },
 {
