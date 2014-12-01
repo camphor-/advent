@@ -43,7 +43,7 @@ var schedule = [
 },
 {
   date: "12/7",
-  author: "準備中",
+  author: "tomonkey1",
   author_url: "#",
   entry_title: "準備中",
   entry_url: "#"
