@@ -16,7 +16,7 @@ var schedule = [
 {
   date: "12/3",
   author: "morishin",
-  author_url: "http://morishin.me",
+  author_url: "https://twitter.com/morishin127",
   entry_title: "CAMPHOR-のYo活用",
   entry_url: "#"
 },
