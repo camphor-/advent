@@ -18,7 +18,7 @@ var schedule = [
   author: "morishin",
   author_url: "https://twitter.com/morishin127",
   entry_title: "CAMPHOR-のYo活用",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/useful-yo/"
 },
 {
   date: "12/4",
