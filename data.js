@@ -106,8 +106,8 @@ var schedule = [
 },
 {
   date: "12/16",
-  author: "準備中",
-  author_url: "#",
+  author: "cotton_ori",
+  author_url: "https://twitter.com/cotton_ori",
   entry_title: "準備中",
   entry_url: "#"
 },
