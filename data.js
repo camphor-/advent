@@ -25,7 +25,7 @@ var schedule = [
   author: "kohey18",
   author_url: "https://github.com/kohey18",
   entry_title: "「hubot start tv」で家のテレビの電源を付ける。",
-  entry_url: "#"
+  entry_url: "http://tech.camph.net/hubot_start_tv/"
 },
 {
   date: "12/5",
