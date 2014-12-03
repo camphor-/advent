@@ -80,7 +80,7 @@ var schedule = [
   date: "12/12",
   author: "siriusjack",
   author_url: "#",
-  entry_title: "準備中",
+  entry_title: "食べられるドングリの見分け方(ドイツ編)",
   entry_url: "#"
 },
 {
