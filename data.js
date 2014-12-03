@@ -31,8 +31,8 @@ var schedule = [
   date: "12/5",
   author: "Shtr28",
   author_url: "https://twitter.com/Shtr28",
-  entry_title: "Python 3でお手軽並列計算 ~concurrent.futures~",
-  entry_url: "#"
+  entry_title: "Python 3でお手軽並列計算 ~concurrent.futures を使った ngram 抽出~",
+  entry_url: "http://tech.camph.net/python3-concurrent-futures/"
 },
 {
   date: "12/6",
