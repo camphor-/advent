@@ -52,7 +52,7 @@ var schedule = [
   date: "12/8",
   author: "asadaman",
   author_url: "#",
-  entry_title: "準備中",
+  entry_title: "ロボットに負けたくない",
   entry_url: "#"
 },
 {
