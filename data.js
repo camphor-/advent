@@ -86,7 +86,7 @@ var schedule = [
 {
   date: "12/13",
   author: "ivstivs",
-  author_url: "#",
+  author_url: "https://github.com/ivstivs",
   entry_title: "ProjectileとHelm",
   entry_url: "#"
 },
