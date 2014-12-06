@@ -120,9 +120,9 @@ var schedule = [
 },
 {
   date: "12/18",
-  author: "準備中",
+  author: "ohmuraken",
   author_url: "#",
-  entry_title: "準備中",
+  entry_title: "ソーシャルボタンで文字を作る！",
   entry_url: "#"
 },
 {
