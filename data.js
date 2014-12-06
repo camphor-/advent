@@ -87,7 +87,7 @@ var schedule = [
   date: "12/13",
   author: "ivstivs",
   author_url: "#",
-  entry_title: "準備中",
+  entry_title: "ProjectileとHelm",
   entry_url: "#"
 },
 {
