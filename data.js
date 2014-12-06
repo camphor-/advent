@@ -44,7 +44,7 @@ var schedule = [
 {
   date: "12/7",
   author: "tomonkey1",
-  author_url: "#",
+  author_url: "https://github.com/tomonkey1",
   entry_title: "宅建挑戦記",
   entry_url: "http://blog.camph.net/event/takken/"
 },
