@@ -51,9 +51,9 @@ var schedule = [
 {
   date: "12/8",
   author: "asadaman",
-  author_url: "#",
+  author_url: "https://github.com/asadaman",
   entry_title: "ロボットに負けたくない",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/robo/"
 },
 {
   date: "12/9",
