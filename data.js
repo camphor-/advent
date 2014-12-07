@@ -141,8 +141,8 @@ var schedule = [
 },
 {
   date: "12/21",
-  author: "準備中",
-  author_url: "#",
+  author: "morishin",
+  author_url: "https://twitter.com/morishin127",
   entry_title: "準備中",
   entry_url: "#"
 }
