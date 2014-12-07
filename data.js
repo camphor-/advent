@@ -58,9 +58,9 @@ var schedule = [
 {
   date: "12/9",
   author: "akaaariiiiin",
-  author_url: "#",
-  entry_title: "準備中",
-  entry_url: "#"
+  author_url: "https://github.com/akaaariiiiin",
+  entry_title: "Java の MigLayout",
+  entry_url: "http://tech.camph.net/java-miglayout/"
 },
 {
   date: "12/10",
