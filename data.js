@@ -65,8 +65,8 @@ var schedule = [
 {
   date: "12/10",
   author: "To-Mikasa",
-  author_url: "#",
-  entry_title: "準備中",
+  author_url: "https://github.com/To-Mikasa",
+  entry_title: "ノンデザイナーがそれっぽいWebデザインを作る話",
   entry_url: "#"
 },
 {
