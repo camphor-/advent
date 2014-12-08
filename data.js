@@ -127,15 +127,15 @@ var schedule = [
 },
 {
   date: "12/19",
-  author: "準備中",
-  author_url: "#",
+  author: "atsul",
+  author_url: "https://github.com/atsul",
   entry_title: "準備中",
   entry_url: "#"
 },
 {
   date: "12/20",
-  author: "準備中",
-  author_url: "#",
+  author: "kohey18",
+  author_url: "https://github.com/kohey18",
   entry_title: "準備中",
   entry_url: "#"
 },
