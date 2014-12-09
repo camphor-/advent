@@ -149,8 +149,8 @@ var schedule = [
 ,
 {
   date: "12/22",
-  author: "準備中",
-  author_url: "#",
+  author: "yaitaimo",
+  author_url: "https://github.com/yaitaimo",
   entry_title: "準備中",
   entry_url: "#"
 }
