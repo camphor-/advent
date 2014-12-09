@@ -67,7 +67,7 @@ var schedule = [
   author: "To-Mikasa",
   author_url: "https://github.com/To-Mikasa",
   entry_title: "ノンデザイナーがそれっぽいWebデザインを作る話",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/non-designer/"
 },
 {
   date: "12/11",
