@@ -73,8 +73,8 @@ var schedule = [
   date: "12/11",
   author: "ryota-ka",
   author_url: "http://ryota-ka.me/",
-  entry_title: "iOS 初心者が Swift を使ってN日でゲームを作った話",
-  entry_url: "#"
+  entry_title: "iOS 初心者が Swift を使って3日でゲームを作った話",
+  entry_url: "http://tech.camph.net/an-ios-beginner-made-a-game-app-with-swift-in-3-days"
 },
 {
   date: "12/12",
