@@ -39,7 +39,7 @@ var schedule = [
   author: "yaitaimo",
   author_url: "https://github.com/yaitaimo",
   entry_title: "CAMPHOR-HOUSEの庭を美白した話",
-  entry_url: "http://blog.camph.net/news/camphor-house-garden/"
+  entry_url: "http://blog.camph.net/event/camphor-house-garden/"
 },
 {
   date: "12/7",
