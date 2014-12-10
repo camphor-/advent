@@ -79,7 +79,7 @@ var schedule = [
 {
   date: "12/12",
   author: "siriusjack",
-  author_url: "#",
+  author_url: "https://github.com/siriusjack",
   entry_title: "食べられるドングリの見分け方(ドイツ編)",
   entry_url: "#"
 },
