@@ -63,7 +63,7 @@
         <div class="col-xs-12">
           <h2>スケジュール</h2>
           <table class="table table-striped schedule">
-            <tr><th>日</th><th>担当</th><th>タイトル</th><th>はてブ</th></tr>
+            <tr><th>日</th><th>担当</th><th>タイトル</th><th class="text-right">はてブ</th></tr>
           </table>
         </div>
       </div>
@@ -99,7 +99,7 @@
               <%- entry_title %>\
           <% } %>\
           </td>\
-          <td>\
+          <td class="text-right">\
           <% if (entry_url !== "#") { %>\
             <a href="http://b.hatena.ne.jp/entry/<%- entry_url %>" class="hateb-link" data-url="<%- entry_url %>">0 Users</a>\
           <% } %>\
