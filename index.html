@@ -113,7 +113,6 @@
         var $item = $(item);
         var url = $item.data("url");
         if (url === "#" || url === "") { return }
-        console.log($item.data("url"));
         $.ajax({
           url: "http://api.b.st-hatena.com/entry.count?url=" + $item.data("url"),
           dataType:"jsonp"
