@@ -122,7 +122,7 @@ var schedule = [
   date: "12/18",
   author: "ohmuraken",
   author_url: "#",
-  entry_title: "ソーシャルボタンで文字を作る！",
+  entry_title: "CAMPHOR-の設備拡充(仮)",
   entry_url: "#"
 },
 {
