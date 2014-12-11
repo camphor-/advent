@@ -78,38 +78,40 @@
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
   <script src="./data.js"></script>
+  <script type="text/template" id="row-template">
+    <tr>
+      <td><%- date %></td>
+      <td>
+      <% if (author_url !== "#") { %>
+        <a href="<%- author_url %>" target="_blank"><%- author %></a>
+      <% } else { %>
+        <%- author %>
+      <% } %>
+      </td>
+      <td>
+      <% if (entry_url !== "#") { %>
+        <a href="<%- entry_url %>" target="_blank"><%- entry_title %></a>
+      <% } else { %>
+        <%- entry_title %>
+      <% } %>
+      </td>
+      <td class="text-right">
+      <% if (entry_url !== "#") { %>
+        <a href="https://twitter.com/search?f=realtime&src=typd&q=<%- entry_url %>" class="tweet-link" data-url="<%- entry_url %>" target="_blank">0 Tweets</a>
+      <% } %>
+      </td>
+      <td class="text-right">
+      <% if (entry_url !== "#") { %>
+        <a href="http://b.hatena.ne.jp/entry/<%- entry_url %>" class="hateb-link" data-url="<%- entry_url %>" target="_blank">0 Users</a>\
+      <% } %>
+      </td>
+    </tr>
+  </script>
   <script>
     $(document).ready(function () {
       "use strict";
       var $table = $('table.schedule');
-      var template = _.template('\
-          <tr>\
-          <td><%- date %></td>\
-          <td>\
-          <% if (author_url !== "#") { %>\
-            <a href="<%- author_url %>" target="_blank"><%- author %></a>\
-          <% } else { %>\
-              <%- author %>\
-          <% } %>\
-          </td>\
-          <td>\
-          <% if (entry_url !== "#") { %>\
-            <a href="<%- entry_url %>" target="_blank"><%- entry_title %></a>\
-          <% } else { %>\
-              <%- entry_title %>\
-          <% } %>\
-          </td>\
-          <td class="text-right">\
-          <% if (entry_url !== "#") { %>\
-            <a href="https://twitter.com/search?f=realtime&src=typd&q=<%- entry_url %>" class="tweet-link" data-url="<%- entry_url %>" target="_blank">0 Tweets</a>\
-          <% } %>\
-          </td>\
-          <td class="text-right">\
-          <% if (entry_url !== "#") { %>\
-            <a href="http://b.hatena.ne.jp/entry/<%- entry_url %>" class="hateb-link" data-url="<%- entry_url %>" target="_blank">0 Users</a>\
-          <% } %>\
-          </td>\
-          </tr>');
+      var template = _.template($("#row-template").text());
       _.each(schedule, function (item) {
         $table.append($(template(item)));
       });
