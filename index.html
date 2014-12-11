@@ -63,7 +63,7 @@
         <div class="col-xs-12">
           <h2>スケジュール</h2>
           <table class="table table-striped schedule">
-            <tr><th>日</th><th>担当</th><th>タイトル</th><th class="text-right">はてブ</th></tr>
+            <tr><th>日</th><th>担当</th><th>タイトル</th><th class="text-right">ツイート</th><th class="text-right">はてブ</th></tr>
           </table>
         </div>
       </div>
@@ -101,6 +101,11 @@
           </td>\
           <td class="text-right">\
           <% if (entry_url !== "#") { %>\
+            <a href="https://twitter.com/search?f=realtime&src=typd&q=<%- entry_url %>" class="tweet-link" data-url="<%- entry_url %>" target="_blank">0 Tweets</a>\
+          <% } %>\
+          </td>\
+          <td class="text-right">\
+          <% if (entry_url !== "#") { %>\
             <a href="http://b.hatena.ne.jp/entry/<%- entry_url %>" class="hateb-link" data-url="<%- entry_url %>" target="_blank">0 Users</a>\
           <% } %>\
           </td>\
@@ -115,9 +120,21 @@
         if (url === "#" || url === "") { return }
         $.ajax({
           url: "http://api.b.st-hatena.com/entry.count?url=" + $item.data("url"),
-          dataType:"jsonp"
+          dataType: "jsonp"
         }).done(function (count) {
           $item.html(count + " Users");
+        });
+      });
+      // Tweets
+      _.each($(".tweet-link"), function (item) {
+        var $item = $(item);
+        var url = $item.data("url");
+        if (url === "#" || url === "") { return }
+        $.ajax({
+          url: "http://urls.api.twitter.com/1/urls/count.json?url=" + $item.data("url"),
+          dataType: "jsonp"
+        }).done(function (data) {
+          $item.html(data.count + " Tweets");
         });
       });
     });
