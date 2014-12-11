@@ -81,7 +81,7 @@ var schedule = [
   author: "siriusjack",
   author_url: "https://github.com/siriusjack",
   entry_title: "食べられるドングリの見分け方(ドイツ編)",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/nuts_eating_in_germany/"
 },
 {
   date: "12/13",
