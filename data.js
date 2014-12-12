@@ -136,7 +136,7 @@ var schedule = [
   date: "12/20",
   author: "kohey18",
   author_url: "https://github.com/kohey18",
-  entry_title: "準備中",
+  entry_title: "Gyazoの使い方を熱く語るぞ!",
   entry_url: "#"
 },
 {
