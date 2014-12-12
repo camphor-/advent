@@ -88,7 +88,7 @@ var schedule = [
   author: "ivstivs",
   author_url: "https://github.com/ivstivs",
   entry_title: "ProjectileとHelm",
-  entry_url: "#"
+  entry_url: "http://tech.camph.net/projectile-and-helm/"
 },
 {
   date: "12/14",
