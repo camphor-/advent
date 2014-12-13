@@ -95,7 +95,7 @@ var schedule = [
   author: "kakenn",
   author_url: "http://shuto.info",
   entry_title: "格安3Dプリンター「daVinci 2.0」を買ってみた。",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/buy-davinci-2-0/"
 },
 {
   date: "12/15",
