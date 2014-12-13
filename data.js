@@ -122,7 +122,7 @@ var schedule = [
   date: "12/18",
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
-  entry_title: "CAMPHOR-の設備拡充(仮)",
+  entry_title: "CAMPHOR- HOUSEについて",
   entry_url: "#"
 },
 {
