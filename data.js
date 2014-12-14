@@ -102,7 +102,7 @@ var schedule = [
   author: "ymyzk",
   author_url: "http://www.ymyzk.com",
   entry_title: "sphinxcontrib.httpdomain で RESTful API のドキュメントを作る",
-  entry_url: "#"
+  entry_url: "https://blog.ymyzk.com/2014/12/restful-api-docs-with-sphinxcontrib-httpdomain/"
 },
 {
   date: "12/16",
