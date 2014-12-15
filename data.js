@@ -108,8 +108,8 @@ var schedule = [
   date: "12/16",
   author: "cotton_ori",
   author_url: "https://twitter.com/cotton_ori",
-  entry_title: "準備中",
-  entry_url: "#"
+  entry_title: "知らない人たちとハッカソンに参加した話",
+  entry_url: "http://wataori.hatenadiary.jp/entry/2014/12/16/003000"
 },
 {
   date: "12/17",
