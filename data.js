@@ -157,8 +157,8 @@ var schedule = [
 ,
 {
   date: "12/23",
-  author: "準備中",
-  author_url: "#",
+  author: "ryota-ka",
+  author_url: "http://ryota-ka.me/",
   entry_title: "準備中",
   entry_url: "#"
 }
