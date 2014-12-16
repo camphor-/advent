@@ -114,9 +114,9 @@ var schedule = [
 {
   date: "12/17",
   author: "pepoipod",
-  author_url: "#",
-  entry_title: "準備中",
-  entry_url: "#"
+  author_url: "https://github.com/pepoipod",
+  entry_title: "UnityFree + LeapでUnityちゃんを投げを作る",
+  entry_url: "http://tech.camph.net/unityfree-leap/"
 },
 {
   date: "12/18",
