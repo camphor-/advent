@@ -123,7 +123,7 @@ var schedule = [
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
   entry_title: "CAMPHOR- HOUSEについて",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/about-house/"
 },
 {
   date: "12/19",
