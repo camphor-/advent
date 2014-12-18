@@ -130,7 +130,7 @@ var schedule = [
   author: "kohey18",
   author_url: "https://github.com/kohey18",
   entry_title: "Gyazoの使い方を熱く語るぞ!",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/tool/useful_gyazo/"
 },
 {
   date: "12/20",
