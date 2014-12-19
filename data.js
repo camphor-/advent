@@ -143,7 +143,7 @@ var schedule = [
   date: "12/21",
   author: "morishin",
   author_url: "https://twitter.com/morishin127",
-  entry_title: "準備中",
+  entry_title: "Pythonでローディングのぐるぐるを表示する",
   entry_url: "#"
 }
 ,
