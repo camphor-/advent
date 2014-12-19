@@ -134,10 +134,10 @@ var schedule = [
 },
 {
   date: "12/20",
-  author: "atsul",
-  author_url: "https://github.com/atsul",
-  entry_title: "準備中",
-  entry_url: "#"
+  author: "murata_atsumi",
+  author_url: "https://twitter.com/murata_atsumi",
+  entry_title: "ノンデザイナーでもできる！写真を使ったイケてるメイン画像の作り方",
+  entry_url: "http://tech.camph.net/mainimage-designing/"
 },
 {
   date: "12/21",
