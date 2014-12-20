@@ -144,7 +144,7 @@ var schedule = [
   author: "morishin",
   author_url: "https://twitter.com/morishin127",
   entry_title: "Pythonでローディングのぐるぐるを表示する",
-  entry_url: "#"
+  entry_url: "http://tech.camph.net/python-guruguru/"
 }
 ,
 {
