@@ -165,10 +165,10 @@ var schedule = [
 ,
 {
   date: "12/24",
-  author: "準備中",
-  author_url: "#",
-  entry_title: "準備中",
-  entry_url: "#"
+  author: "ohmuraken",
+  author_url: "https://github.com/ohmuraken",
+  entry_title: "サイボウズさんとSelenium勉強会しました",
+  entry_url: "http://blog.camph.net/news/selenium-with-cybouz/"
 }
 ,
 {
