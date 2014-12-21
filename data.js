@@ -167,7 +167,7 @@ var schedule = [
   date: "12/24",
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
-  entry_title: "サイボウズさんとSelenium勉強会しました",
+  entry_title: "サイボウズさんとSelenium勉強会を開催しました",
   entry_url: "#"
 }
 ,
