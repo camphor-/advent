@@ -151,8 +151,8 @@ var schedule = [
   date: "12/22",
   author: "yaitaimo",
   author_url: "https://github.com/yaitaimo",
-  entry_title: "準備中",
-  entry_url: "#"
+  entry_title: "Alfred Workflowsの作り方 — Python Ver. –",
+  entry_url: "http://tech.camph.net/alfred-workflows-python/"
 }
 ,
 {
