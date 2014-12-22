@@ -114,60 +114,60 @@ var schedule = [
 {
   date: "12/17",
   author: "pepoipod",
-  author_url: "#",
-  entry_title: "準備中",
-  entry_url: "#"
+  author_url: "https://github.com/pepoipod",
+  entry_title: "UnityFree + LeapでUnityちゃんを投げを作る",
+  entry_url: "http://tech.camph.net/unityfree-leap/"
 },
 {
   date: "12/18",
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
   entry_title: "CAMPHOR- HOUSEについて",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/news/about-house/"
 },
 {
   date: "12/19",
-  author: "atsul",
-  author_url: "https://github.com/atsul",
-  entry_title: "準備中",
-  entry_url: "#"
-},
-{
-  date: "12/20",
   author: "kohey18",
   author_url: "https://github.com/kohey18",
   entry_title: "Gyazoの使い方を熱く語るぞ!",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/tool/useful_gyazo/"
+},
+{
+  date: "12/20",
+  author: "murata_atsumi",
+  author_url: "https://twitter.com/murata_atsumi",
+  entry_title: "ノンデザイナーでもできる！写真を使ったイケてるメイン画像の作り方",
+  entry_url: "http://tech.camph.net/mainimage-designing/"
 },
 {
   date: "12/21",
   author: "morishin",
   author_url: "https://twitter.com/morishin127",
-  entry_title: "準備中",
-  entry_url: "#"
+  entry_title: "Pythonでローディングのぐるぐるを表示する",
+  entry_url: "http://tech.camph.net/python-guruguru/"
 }
 ,
 {
   date: "12/22",
   author: "yaitaimo",
   author_url: "https://github.com/yaitaimo",
-  entry_title: "準備中",
-  entry_url: "#"
+  entry_title: "Alfred Workflowsの作り方 — Python Ver. –",
+  entry_url: "http://tech.camph.net/alfred-workflows-python/"
 }
 ,
 {
   date: "12/23",
-  author: "準備中",
-  author_url: "#",
+  author: "ryota-ka",
+  author_url: "http://ryota-ka.me/",
   entry_title: "準備中",
   entry_url: "#"
 }
 ,
 {
   date: "12/24",
-  author: "準備中",
-  author_url: "#",
-  entry_title: "準備中",
+  author: "ohmuraken",
+  author_url: "https://github.com/ohmuraken",
+  entry_title: "サイボウズさんとSelenium勉強会を開催しました",
   entry_url: "#"
 }
 ,
