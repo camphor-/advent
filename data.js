@@ -159,8 +159,8 @@ var schedule = [
   date: "12/23",
   author: "ryota-ka",
   author_url: "http://ryota-ka.me/",
-  entry_title: "準備中",
-  entry_url: "#"
+  entry_title: "初心者でもできる！関数型プログラミング入門",
+  entry_url: "http://tech.camph.net/functional-php/"
 }
 ,
 {
