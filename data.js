@@ -122,7 +122,7 @@ var schedule = [
   date: "12/18",
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
-  entry_title: "CAMPHOR- HOUSEについて",
+  entry_title: "京都の学生が集まる町家ワークスペースCAMPHOR- HOUSEの紹介",
   entry_url: "http://blog.camph.net/news/about-house/"
 },
 {
