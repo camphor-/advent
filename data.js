@@ -168,7 +168,7 @@ var schedule = [
   author: "ohmuraken",
   author_url: "https://github.com/ohmuraken",
   entry_title: "サイボウズさんとSelenium勉強会を開催しました",
-  entry_url: "#"
+  entry_url: "http://blog.camph.net/event/selenium-with-cybozu/"
 }
 ,
 {
