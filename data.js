@@ -175,7 +175,7 @@ var schedule = [
   date: "12/25",
   author: "kohey18",
   author_url: "https://github.com/kohey18",
-  entry_title: "2014年度 CAMPHOR- Advent Calendar 2014をまとめるよ！",
-  entry_url: "#"
+  entry_title: "CAMPHOR- Advent Calendar 2014をまとめるよ！",
+  entry_url: "http://blog.camph.net/news/summary-camphor-advent-calendar-2014/"
 }
 ];
