@@ -66,7 +66,11 @@ def run(debug=False):
     template = env.get_template(filename)
     context = {
         "debug": debug,
-        "entries_for_years": load_entries()
+        "description": (
+            "京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。"
+            "様々な記事を毎日追加していきます。"),
+        "entries_for_years": load_entries(),
+        "title": "CAMPHOR- Advent Calendar"
     }
     html = minify_html(template.render(**context))
 
