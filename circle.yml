@@ -5,7 +5,10 @@ dependencies:
   override:
     - pip install -U -r requirements.txt
     - pip install -U flake8
+    - wget -O vnu.zip https://github.com/validator/validator/releases/download/15.6.29/vnu.jar_15.6.29.zip
+    - unzip vnu.zip
 test:
   override:
     - flake8 run.py
     - python run.py
+    - java -jar dist/vnu.jar output/index.html
