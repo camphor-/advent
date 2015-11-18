@@ -2,6 +2,7 @@
 from collections import OrderedDict
 from operator import itemgetter
 from os import path
+import sys
 
 from jinja2 import Environment, FileSystemLoader
 import yaml
@@ -60,10 +61,11 @@ def minify_html(html):
     return "".join(lines)
 
 
-def run():
+def run(debug=False):
     filename = "index.html"
     template = env.get_template(filename)
     context = {
+        "debug": debug,
         "entries_for_years": load_entries()
     }
     html = minify_html(template.render(**context))
@@ -73,4 +75,5 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    debug = "--debug" in sys.argv[1:]
+    run(debug=debug)
