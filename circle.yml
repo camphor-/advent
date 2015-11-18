@@ -11,4 +11,4 @@ test:
   override:
     - flake8 run.py
     - python run.py
-    - java -jar dist/vnu.jar output/index.html
+    - java -jar dist/vnu.jar --verbose output/index.html
