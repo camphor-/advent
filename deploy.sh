@@ -6,6 +6,9 @@ cd $(dirname $0)
 
 venv="venv"
 
+echo "----- start -----"
+date
+
 git fetch
 git checkout master
 git pull --rebase
@@ -17,3 +20,5 @@ fi
 $venv/bin/pip install -U setuptools pip wheel
 $venv/bin/pip install -U -r requirements.txt
 $venv/bin/python run.py
+
+echo "----- end -----"
