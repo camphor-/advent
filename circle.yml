@@ -4,6 +4,8 @@ machine:
 dependencies:
   override:
     - pip install -U -r requirements.txt
+    - pip install -U flake8
 test:
   override:
+    - flake8 run.py
     - python run.py
