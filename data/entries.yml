@@ -1,0 +1,249 @@
+- date: 2014-12-01
+  author: ymyzk
+  title: CAMPHOR- アドベントカレンダー 2014 を始めます!
+  url: http://blog.camph.net/news/advent-calendar-2014/
+
+- date: 2014-12-02
+  author: ohmuraken
+  title: 彼女のつくりかた (京大11月祭にて)
+  url: http://blog.camph.net/news/howtomakemygirlfriend2/
+
+- date: 2014-12-03
+  author: morishin
+  title: CAMPHOR-のYo活用
+  url: http://blog.camph.net/news/useful-yo/
+
+- date: 2014-12-04
+  author: kohey18
+  title: 「hubot start tv」で家のテレビの電源を付ける。
+  url: http://tech.camph.net/hubot_start_tv/
+
+- date: 2014-12-05
+  author: shotarok28
+  title: Python 3でお手軽並列計算 ~concurrent.futures を使った ngram 抽出~
+  url: http://tech.camph.net/python3-concurrent-futures/
+
+- date: 2014-12-06
+  author: yaitaimo
+  title: CAMPHOR-HOUSEの庭を美白した話
+  url: http://blog.camph.net/event/camphor-house-garden/
+
+- date: 2014-12-07
+  author: tomonkey1
+  title: 宅建挑戦記
+  url: http://blog.camph.net/event/takken/
+
+- date: 2014-12-08
+  author: asadaman
+  title: ロボットに負けたくない
+  url: http://blog.camph.net/news/robo/
+
+- date: 2014-12-09
+  author: akaaariiiiin
+  title: Java の MigLayout
+  url: http://tech.camph.net/java-miglayout/
+
+- date: 2014-12-10
+  author: mikasakasa
+  title: ノンデザイナーがそれっぽいWebデザインを作る話
+  url: http://blog.camph.net/news/non-designer/
+
+- date: 2014-12-11
+  author: ryota-ka
+  title: iOS 初心者が Swift を使って3日でゲームを作った話
+  url: http://tech.camph.net/an-ios-beginner-made-a-game-app-with-swift-in-3-days/
+
+- date: 2014-12-12
+  author: siriusjack
+  title: 食べられるドングリの見分け方(ドイツ編)
+  url: http://blog.camph.net/news/nuts_eating_in_germany/
+
+- date: 2014-12-13
+  author: yustoris
+  title: ProjectileとHelm
+  url: http://tech.camph.net/projectile-and-helm/
+
+- date: 2014-12-14
+  author: kakenn
+  title: 格安3Dプリンター「daVinci 2.0」を買ってみた。
+  url: http://blog.camph.net/news/buy-davinci-2-0/
+
+- date: 2014-12-15
+  author: ymyzk
+  title: sphinxcontrib.httpdomain で RESTful API のドキュメントを作る
+  url: https://blog.ymyzk.com/2014/12/restful-api-docs-with-sphinxcontrib-httpdomain/
+
+- date: 2014-12-16
+  author: cotton_ori
+  title: 知らない人たちとハッカソンに参加した話
+  url: http://wataori.hatenadiary.jp/entry/2014/12/16/003000
+
+- date: 2014-12-17
+  author: pepoipod
+  title: UnityFree + LeapでUnityちゃんを投げを作る
+  url: http://tech.camph.net/unityfree-leap/
+
+- date: 2014-12-18
+  author: ohmuraken
+  title: 京都の学生が集まる町家ワークスペースCAMPHOR- HOUSEの紹介
+  url: http://blog.camph.net/news/about-house/
+
+- date: 2014-12-19
+  author: kohey18
+  title: Gyazoの使い方を熱く語るぞ!
+  url: http://blog.camph.net/tool/useful_gyazo/
+
+- date: 2014-12-20
+  author: murata_atsumi
+  title: ノンデザイナーでもできる！写真を使ったイケてるメイン画像の作り方
+  url: http://tech.camph.net/mainimage-designing/
+
+- date: 2014-12-21
+  author: morishin
+  title: Pythonでローディングのぐるぐるを表示する
+  url: http://tech.camph.net/python-guruguru/
+
+- date: 2014-12-22
+  author: yaitaimo
+  title: Alfred Workflowsの作り方 — Python Ver. –
+  url: http://tech.camph.net/alfred-workflows-python/
+
+- date: 2014-12-23
+  author: ryota-ka
+  title: 初心者でもできる！関数型プログラミング入門
+  url: http://tech.camph.net/functional-php/
+
+- date: 2014-12-24
+  author: ohmuraken
+  title: サイボウズさんとSelenium勉強会を開催しました
+  url: http://blog.camph.net/event/selenium-with-cybozu/
+
+- date: 2014-12-25
+  author: kohey18
+  title: CAMPHOR- Advent Calendar 2014をまとめるよ！
+  url: http://blog.camph.net/news/summary-camphor-advent-calendar-2014/
+
+- date: 2015-12-01
+  author: ymyzk
+  title: null
+  url: null
+
+- date: 2015-12-02
+  author: tanishiking
+  title: null
+  url: null
+
+- date: 2015-12-03
+  author: yaitaimo
+  title: null
+  url: null
+
+- date: 2015-12-04
+  author: ryota-ka
+  title: null
+  url: null
+
+- date: 2015-12-05
+  author: yu-i9
+  title: null
+  url: null
+
+- date: 2015-12-06
+  author: kakenn
+  title: null
+  url: null
+
+- date: 2015-12-07
+  author: ytmatsuge
+  title: null
+  url: null
+
+- date: 2015-12-08
+  author: pepoipod
+  title: null
+  url: null
+
+- date: 2015-12-09
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-10
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-11
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-12
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-13
+  author: null
+  title: null
+
+- date: 2015-12-14
+  author: null
+  title: null
+  url: null
+  url: null
+
+- date: 2015-12-15
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-16
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-17
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-18
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-19
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-20
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-21
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-22
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-23
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-24
+  author: null
+  title: null
+  url: null
+
+- date: 2015-12-25
+  author: null
+  title: null
+  url: null

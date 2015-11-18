@@ -1,0 +1,9 @@
+machine:
+  python:
+    version: 3.4.2
+dependencies:
+  override:
+    - pip install -U -r requirements.txt
+test:
+  override:
+    - python run.py
