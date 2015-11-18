@@ -53,13 +53,20 @@ def load_entries():
     return entries
 
 
+def minify_html(html):
+    lines = html.split("\n")
+    lines = map(lambda l: l.strip(), lines)
+    lines = filter(lambda l: l != "", lines)
+    return "".join(lines)
+
+
 def run():
     filename = "index.html"
     template = env.get_template(filename)
     context = {
         "entries_for_years": load_entries()
     }
-    html = template.render(**context)
+    html = minify_html(template.render(**context))
 
     with open(path.join(output_dir, filename), "w") as f:
         f.write(html)
