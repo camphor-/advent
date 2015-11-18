@@ -70,6 +70,7 @@ def run(debug=False):
             "京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。"
             "様々な記事を毎日追加していきます。"),
         "entries_for_years": load_entries(),
+        "root": "http://advent.camph.net/",
         "title": "CAMPHOR- Advent Calendar"
     }
     html = minify_html(template.render(**context))
