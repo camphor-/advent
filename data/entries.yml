@@ -144,7 +144,7 @@
   url: null
 
 - date: 2015-12-05
-  author: yu-i9
+  author: null
   title: null
   url: null
 
@@ -208,8 +208,8 @@
   url: null
 
 - date: 2015-12-18
-  author: null
-  title: null
+  author: yu-i9
+  title: Haskell の型付け
   url: null
 
 - date: 2015-12-19
