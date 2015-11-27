@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from collections import OrderedDict
+from datetime import date
 from operator import itemgetter
 from os import path
 import sys
@@ -28,14 +29,15 @@ def load_authors():
 
 
 def load_entries():
+    today = date.today()
     authors = load_authors()
 
     with open(path.join(data_dir, "entries.yml")) as f:
         entries_list = yaml.load(f)
     entries_list.sort(key=itemgetter("date"))
 
-    # Set author_url
     for entry in entries_list:
+        # Set author_url
         if entry["author"] is not None:
             author = authors[entry["author"]]
         else:
@@ -44,6 +46,10 @@ def load_entries():
                 "url": None
             }
         entry["author_url"] = author["url"]
+
+        if entry["date"] > today:
+            # Not ready
+            entry["url"] = None
 
     # Aggregate
     entries = OrderedDict()
