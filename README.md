@@ -5,6 +5,10 @@ advent
 
 CAMPHOR- Advent Calendar
 
+Rules
+-----
+See [Gist](https://gist.github.com/ymyzk/d02980f0deed8ccdef37).
+
 Requirements
 ------------
 - Python 3.2+
