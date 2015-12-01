@@ -130,8 +130,8 @@
 
 - date: 2015-12-02
   author: tanishiking
-  title: ターミナルからニコニコ動画を検索できるCLIクライアント作った
-  url: null
+  title: readコマンドで 矢印キー や Ctrl+x などの入力を読み取る
+  url: http://tanishiking24.hatenablog.com/entry/readascii
 
 - date: 2015-12-03
   author: yaitaimo
