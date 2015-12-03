@@ -140,7 +140,7 @@
 
 - date: 2015-12-04
   author: ryota-ka
-  title: Vty + StateT で画面のスクロールを実装する
+  title: vty + StateT で画面のスクロールを実装する
   url: http://ryota-ka.hatenablog.com/entry/2015/12/04/000000
 
 - date: 2015-12-05
