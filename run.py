@@ -64,7 +64,7 @@ def minify_html(html):
     lines = html.split("\n")
     lines = map(lambda l: l.strip(), lines)
     lines = filter(lambda l: l != "", lines)
-    return "".join(lines)
+    return "\n".join(lines)
 
 
 def run(debug=False):
