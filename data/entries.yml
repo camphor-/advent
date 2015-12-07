@@ -19,7 +19,7 @@
   url: http://tech.camph.net/hubot_start_tv/
 
 - date: 2014-12-05
-  author: shotarok28
+  author: shotarok
   title: Python 3でお手軽並列計算 ~concurrent.futures を使った ngram 抽出~
   url: http://tech.camph.net/python3-concurrent-futures/
 
@@ -204,7 +204,7 @@
   url: null
 
 - date: 2015-12-17
-  author: null
+  author: shotarok
   title: null
   url: null
 
