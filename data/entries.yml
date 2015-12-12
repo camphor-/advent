@@ -190,8 +190,8 @@
 
 - date: 2015-12-14
   author: lotz
-  title: Haskell で何か書く
-  url: null
+  title: Servant でアクセス制御のWeb DSLを作ってみる
+  url: http://qiita.com/lotz/items/391f48c363a3f478794c
 
 - date: 2015-12-15
   author: mikasakasa
