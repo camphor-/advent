@@ -210,8 +210,8 @@
 
 - date: 2015-12-18
   author: yu-i9
-  title: Haskell の型付け
-  url: null
+  title: 型クラスを含んだ型推論を概観する 〜Typing Haskell in Haskell より〜
+  url: http://yu-i9.hatenablog.com/entry/thih
 
 - date: 2015-12-19
   author: siriusjack
