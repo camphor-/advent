@@ -5,4 +5,5 @@ services:
     build: .
     image: camphor/advent
     volumes:
-      - .:/app
+      - ./data:/app/data:ro
+      - ./output:/app/output

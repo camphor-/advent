@@ -17,7 +17,7 @@ git fetch
 git checkout $branch
 git reset --hard origin/$branch
 
-/usr/local/bin/docker-compose build --pull
-/usr/local/bin/docker-compose up -d
+/usr/local/bin/docker-compose -f docker-compose.prod.yml build --pull
+/usr/local/bin/docker-compose -f docker-compose.prod.yml up -d
 
 echo "----- end -----"
