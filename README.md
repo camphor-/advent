@@ -11,21 +11,19 @@ See [Gist](https://gist.github.com/ymyzk/d02980f0deed8ccdef37).
 
 Requirements
 ------------
-- Python 3.2+
-- [requirements.txt](requirements.txt)
+- Docker
+- docker-compose
 
 Edit
 ----
 0. Edit [data/authors.yml](data/authors.yml)
 0. Edit [data/entries.yml](data/entries.yml)
 
-Compile
--------
-0. Install requirements: `pip install -U -r requirements.txt`
-0. Run: `python run.py --debug`
-0. Open: `output/index.html`
+Compile & Development
+---------------------
+0. Run `docker-compose up -d`
+0. Open http://localhost:8000
 
 Deploy
 ------
-0. Checkout
-0. Run: `./deploy.sh`
+0. Run `./deploy.sh` or `./deploy.sh <branch>`
