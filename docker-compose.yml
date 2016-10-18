@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  advent:
+    build: .
+    image: camphor/advent
+    volumes:
+      - ./data:/app/data:ro
+      - ./output:/app/output
