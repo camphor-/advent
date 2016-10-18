@@ -1,24 +1,23 @@
 #!/bin/bash
+set -ex
 
-set -eu
+branch=$1
+if [ -z "$branch" ]; then
+  branch=master
+fi
+
+set -u
 
 cd $(dirname $0)
-
-venv="venv"
 
 echo "----- start -----"
 date
 
 git fetch
-git checkout master
-git pull --rebase
+git checkout $branch
+git reset --hard origin/$branch
 
-if [[ ! -d $venv ]]; then
-  virtualenv -p $(which python3) $venv
-fi
-
-$venv/bin/pip install -U setuptools pip wheel
-$venv/bin/pip install -U -r requirements.txt
-$venv/bin/python run.py
+/usr/local/bin/docker-compose build --pull
+/usr/local/bin/docker-compose up -d
 
 echo "----- end -----"
