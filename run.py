@@ -4,6 +4,7 @@ from datetime import date
 from operator import itemgetter
 from os import path
 import sys
+from typing import Any, Dict
 
 from jinja2 import Environment, FileSystemLoader
 import yaml
@@ -17,7 +18,7 @@ loader = FileSystemLoader(source_dir, encoding="utf-8")
 env = Environment(loader=loader)
 
 
-def load_authors():
+def load_authors() -> Dict[str, Any]:
     with open(path.join(data_dir, "authors.yml")) as f:
         authors_list = yaml.load(f)
 
@@ -28,7 +29,7 @@ def load_authors():
     return authors
 
 
-def load_entries():
+def load_entries() -> OrderedDict:
     today = date.today()
     authors = load_authors()
 
@@ -52,7 +53,7 @@ def load_entries():
             entry["url"] = None
 
     # Aggregate
-    entries = OrderedDict()
+    entries: OrderedDict = OrderedDict()
     years = list({entry["date"].year for entry in entries_list})
     for year in sorted(years, reverse=True):
         entries[year] = [e for e in entries_list if e["date"].year == year]
@@ -60,14 +61,14 @@ def load_entries():
     return entries
 
 
-def minify_html(html):
-    lines = html.split("\n")
+def minify_html(html: str) -> str:
+    lines = iter(html.split("\n"))
     lines = map(lambda l: l.strip(), lines)
     lines = filter(lambda l: l != "", lines)
     return "\n".join(lines)
 
 
-def run(debug=False):
+def run(debug: bool = False):
     filename = "index.html"
     template = env.get_template(filename)
     context = {
