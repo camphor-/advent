@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 from collections import OrderedDict
 from datetime import date
-from operator import itemgetter
+from operator import attrgetter, itemgetter
 from os import path
 import sys
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 from jinja2 import Environment, FileSystemLoader
 import yaml
 
+from advent.models import Author, Entry
 
 root_dir = path.dirname(path.abspath(__file__))
 data_dir = path.join(root_dir, "data")
@@ -18,13 +19,14 @@ loader = FileSystemLoader(source_dir, encoding="utf-8")
 env = Environment(loader=loader)
 
 
-def load_authors() -> Dict[str, Any]:
+def load_authors() -> Dict[str, Author]:
     with open(path.join(data_dir, "authors.yml")) as f:
         authors_list = yaml.load(f)
 
     authors = {}
-    for author in authors_list:
-        authors[author["name"]] = author
+    for author_dict in authors_list:
+        author = Author(**author_dict)
+        authors[author.name] = author
 
     return authors
 
@@ -33,32 +35,28 @@ def load_entries() -> OrderedDict:
     today = date.today()
     authors = load_authors()
 
-    with open(path.join(data_dir, "entries.yml")) as f:
-        entries_list = yaml.load(f)
-    entries_list.sort(key=itemgetter("date"))
+    def load_entry(d: Dict[str, Any]) -> Entry:
+        entry = Entry(**d)
 
-    for entry in entries_list:
-        # Set author_url
-        if entry["author"] is not None:
-            author = authors[entry["author"]]
-        else:
-            author = {
-                "name": None,
-                "url": None
-            }
-        entry["author_url"] = author["url"]
+        if entry.author is not None:
+            entry.author_url = authors[entry.author].url
 
-        if entry["date"] > today:
+        if entry.date > today:
             # Not ready
-            entry["url"] = None
+            entry.url = None
+
+        return entry
+
+    with open(path.join(data_dir, "entries.yml")) as f:
+        entries = [load_entry(d) for d in yaml.load(f)]
 
     # Aggregate
-    entries: OrderedDict = OrderedDict()
-    years = list({entry["date"].year for entry in entries_list})
+    entries_by_year: OrderedDict = OrderedDict()
+    years = list({e.date.year for e in entries})
     for year in sorted(years, reverse=True):
-        entries[year] = [e for e in entries_list if e["date"].year == year]
+        entries_by_year[year] = [e for e in entries if e.date.year == year]
 
-    return entries
+    return entries_by_year
 
 
 def minify_html(html: str) -> str:

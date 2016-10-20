@@ -17,5 +17,6 @@ test:
   override:
     - flake8 run.py
     - mypy --silent-imports run.py
+    - mypy advent
     - python run.py
     - java -jar dist/vnu.jar --verbose output/index.html
