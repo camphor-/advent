@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 from collections import OrderedDict
 from datetime import date
-from operator import attrgetter, itemgetter
 from os import path
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 from jinja2 import Environment, FileSystemLoader
 import yaml
