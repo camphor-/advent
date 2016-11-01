@@ -7,10 +7,7 @@ dependencies:
   pre:
     - pip install -U setuptools pip wheel
   override:
-    - pip install -U -r requirements.txt
-    - pip install -U 'flake8>=3.0.0,<4.0.0'
-    - pip install -U 'mypy-lang>=0.4.0,<0.5.0'
-    - pip install -U 'typed-ast>=0.6.0,<0.7.0'
+    - pip install -U -r requirements.txt -r requirements.test.txt
     - wget -O vnu.zip https://github.com/validator/validator/releases/download/16.6.29/vnu.jar_16.6.29.zip
     - unzip vnu.zip
 test:
