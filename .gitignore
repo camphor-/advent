@@ -54,4 +54,4 @@ docs/_build/
 
 *.swp
 .idea/
-output/index.html
+output/*.html

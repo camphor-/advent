@@ -66,8 +66,6 @@ def minify_html(html: str) -> str:
 
 
 def run(debug: bool = False):
-    filename = "index.html"
-    template = env.get_template(filename)
     context = {
         "debug": debug,
         "description": (
@@ -77,8 +75,16 @@ def run(debug: bool = False):
         "root": "http://advent.camph.net/",
         "title": "CAMPHOR- Advent Calendar"
     }
-    html = minify_html(template.render(**context))
 
+    filename = "index.html"
+    template = env.get_template(filename)
+    html = minify_html(template.render(**context))
+    with open(path.join(output_dir, filename), "w") as f:
+        f.write(html)
+
+    filename = "amp.html"
+    template = env.get_template(filename)
+    html = minify_html(template.render(**context))
     with open(path.join(output_dir, filename), "w") as f:
         f.write(html)
 
