@@ -280,8 +280,8 @@
 
 - date: 2016-12-01
   author: ymyzk
-  title: Python のプロファイラについて (仮)
-  url: null
+  title: WSGI ミドルウェアとして使えるラインプロファイラを作った話
+  url: https://blog.ymyzk.com/2016/12/line-profiler-as-a-wsgi-middleware/
 
 - date: 2016-12-02
   author: ytmatsuge
