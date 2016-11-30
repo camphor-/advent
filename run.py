@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 from collections import OrderedDict
-from datetime import date
+from datetime import datetime
 from os import path
 import sys
 from typing import Any, Dict
 
 from jinja2 import Environment, FileSystemLoader
+import pytz
 import yaml
 
 from advent.models import Author, Entry
@@ -16,6 +17,8 @@ source_dir = path.join(root_dir, "source")
 output_dir = path.join(root_dir, "output")
 loader = FileSystemLoader(source_dir, encoding="utf-8")
 env = Environment(loader=loader)
+
+today = datetime.now(pytz.timezone("Asia/Tokyo")).date()
 
 
 def load_authors() -> Dict[str, Author]:
@@ -31,7 +34,6 @@ def load_authors() -> Dict[str, Author]:
 
 
 def load_entries() -> OrderedDict:
-    today = date.today()
     authors = load_authors()
 
     def load_entry(d: Dict[str, Any]) -> Entry:
