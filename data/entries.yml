@@ -306,7 +306,7 @@
 - date: 2016-12-06
   author: tomoyat1
   title: ZFS SnapshotをGCPのColdline Storageに上げてみた
-  url: null
+  url: https://blog.tomoyat1.com/2016/12/06/saving-zfs-snapshots-to-gcp-coldline/
 
 - date: 2016-12-07
   author: tanishiking
