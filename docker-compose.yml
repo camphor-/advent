@@ -10,4 +10,4 @@ services:
       - 8000:8000
     volumes:
       - .:/app
-    command: bash -c 'python run.py && cd output/ && python -m http.server'
+    command: bash -c 'python run.py --debug && cd output/ && python -m http.server'
