@@ -2,7 +2,7 @@ machine:
   pre:
     - cd /opt/circleci/.pyenv && git pull && cd -
   python:
-    version: 3.6.0rc1
+    version: 3.6.0rc2
 dependencies:
   pre:
     - pip install -U setuptools pip wheel
