@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-slim
 MAINTAINER Yusuke Miyazaki <miyazaki.dev@gmail.com>
 
 RUN mkdir -p /app/
