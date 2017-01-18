@@ -7,7 +7,10 @@ $(document).ready(function () {
     var url = $item.data("url");
     if (url === "#" || url === "") { return }
     $.ajax({
-      url: "http://api.b.st-hatena.com/entry.count?url=" + $item.data("url"),
+      url: "https://b.hatena.ne.jp/entry.count",
+      data: {
+        url: encodeURI(url)
+      },
       dataType: "jsonp"
     }).done(function (count) {
       $item.html(count + " Users");
