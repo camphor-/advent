@@ -8,7 +8,7 @@ dependencies:
     - pip install -U setuptools pip wheel
   override:
     - pip install -U -r requirements.txt -r requirements.test.txt
-    - wget -O vnu.zip https://github.com/validator/validator/releases/download/16.6.29/vnu.jar_16.6.29.zip
+    - wget -O vnu.zip https://github.com/validator/validator/releases/download/17.2.1/vnu.jar_17.2.1.zip
     - unzip vnu.zip
 test:
   override:
