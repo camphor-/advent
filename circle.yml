@@ -12,7 +12,7 @@ dependencies:
     - unzip vnu.zip
 test:
   override:
-    - flake8 run.py
+    - flake8
     - mypy --silent-imports run.py
     - mypy advent
     - python run.py
