@@ -19,7 +19,3 @@ Compile & Development
 ---------------------
 0. Run `docker-compose up -d`
 0. Open http://localhost:8000
-
-Deploy
-------
-0. Run `./deploy.sh` or `./deploy.sh <branch>`
