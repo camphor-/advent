@@ -1,9 +1,10 @@
-version: "2"
+version: "3.3"
 
 services:
   advent:
     build: .
     image: camphor/advent
+    network_mode: none
     volumes:
       - ./data:/app/data:ro
       - ./output:/app/output
