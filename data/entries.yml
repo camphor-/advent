@@ -16,12 +16,12 @@
 - date: 2014-12-04
   author: kohey18
   title: 「hubot start tv」で家のテレビの電源を付ける。
-  url: https://tech.camph.net/hubot_start_tv/
+  url: http://tech.camph.net/hubot_start_tv/
 
 - date: 2014-12-05
   author: shotarok
   title: Python 3でお手軽並列計算 ~concurrent.futures を使った ngram 抽出~
-  url: https://tech.camph.net/python3-concurrent-futures/
+  url: http://tech.camph.net/python3-concurrent-futures/
 
 - date: 2014-12-06
   author: yaitaimo
@@ -41,7 +41,7 @@
 - date: 2014-12-09
   author: akaaariiiiin
   title: Java の MigLayout
-  url: https://tech.camph.net/java-miglayout/
+  url: http://tech.camph.net/java-miglayout/
 
 - date: 2014-12-10
   author: mikasakasa
@@ -51,7 +51,7 @@
 - date: 2014-12-11
   author: ryota-ka
   title: iOS 初心者が Swift を使って3日でゲームを作った話
-  url: https://tech.camph.net/an-ios-beginner-made-a-game-app-with-swift-in-3-days/
+  url: http://tech.camph.net/an-ios-beginner-made-a-game-app-with-swift-in-3-days/
 
 - date: 2014-12-12
   author: siriusjack
@@ -61,7 +61,7 @@
 - date: 2014-12-13
   author: yustoris
   title: ProjectileとHelm
-  url: https://tech.camph.net/projectile-and-helm/
+  url: http://tech.camph.net/projectile-and-helm/
 
 - date: 2014-12-14
   author: kakenn
@@ -81,7 +81,7 @@
 - date: 2014-12-17
   author: pepoipod
   title: UnityFree + LeapでUnityちゃんを投げを作る
-  url: https://tech.camph.net/unityfree-leap/
+  url: http://tech.camph.net/unityfree-leap/
 
 - date: 2014-12-18
   author: ohmuraken
@@ -96,22 +96,22 @@
 - date: 2014-12-20
   author: murata_atsumi
   title: ノンデザイナーでもできる！写真を使ったイケてるメイン画像の作り方
-  url: https://tech.camph.net/mainimage-designing/
+  url: http://tech.camph.net/mainimage-designing/
 
 - date: 2014-12-21
   author: morishin
   title: Pythonでローディングのぐるぐるを表示する
-  url: https://tech.camph.net/python-guruguru/
+  url: http://tech.camph.net/python-guruguru/
 
 - date: 2014-12-22
   author: yaitaimo
   title: Alfred Workflowsの作り方 — Python Ver. –
-  url: https://tech.camph.net/alfred-workflows-python/
+  url: http://tech.camph.net/alfred-workflows-python/
 
 - date: 2014-12-23
   author: ryota-ka
   title: 初心者でもできる！関数型プログラミング入門
-  url: https://tech.camph.net/functional-php/
+  url: http://tech.camph.net/functional-php/
 
 - date: 2014-12-24
   author: ohmuraken
@@ -136,7 +136,7 @@
 - date: 2015-12-03
   author: yaitaimo
   title: Python で RSA 公開鍵暗号をなぞってみる
-  url: https://tech.camph.net/rsa-public-key-encryption/
+  url: http://tech.camph.net/rsa-public-key-encryption/
 
 - date: 2015-12-04
   author: ryota-ka
@@ -156,7 +156,7 @@
 - date: 2015-12-07
   author: ytmatsuge
   title: 初心者がエンジニアの卵になるための方法。
-  url: https://tech.camph.net/beginner-to-engineer/
+  url: http://tech.camph.net/beginner-to-engineer/
 
 - date: 2015-12-08
   author: pepoipod
@@ -181,7 +181,7 @@
 - date: 2015-12-12
   author: andoshin11
   title: 初心者がGASでSlack Botをつくってみた
-  url: https://tech.camph.net/slack-bot-with-gas/
+  url: http://tech.camph.net/slack-bot-with-gas/
 
 - date: 2015-12-13
   author: kakizoe
@@ -216,7 +216,7 @@
 - date: 2015-12-19
   author: siriusjack
   title: Hubot に照明を on/off させる
-  url: https://tech.camph.net/hubot-hue-integration/
+  url: http://tech.camph.net/hubot-hue-integration/
 
 - date: 2015-12-20
   author: morishin
@@ -286,12 +286,12 @@
 - date: 2016-12-02
   author: ytmatsuge
   title: 非エンジニアに知ってほしい「エンジニアを仲間にするための第一歩」
-  url: https://tech.camph.net/first-step-for-recruiting-engineers/
+  url: http://tech.camph.net/first-step-for-recruiting-engineers/
 
 - date: 2016-12-03
   author: yaitaimo
   title: 某国の大統領を勝たせるために僕たちが出来ること
-  url: https://tech.camph.net/e-voting-attack-possibility/
+  url: http://tech.camph.net/e-voting-attack-possibility/
 
 - date: 2016-12-04
   author: KojiAomatsu
@@ -336,7 +336,7 @@
 - date: 2016-12-12
   author: shiba6v
   title: iTweenはValueToさえ使えればOK！【Unityでのアニメーション】
-  url: https://tech.camph.net/itween-valueto/
+  url: http://tech.camph.net/itween-valueto/
 
 - date: 2016-12-13
   author: andoshin11
@@ -346,7 +346,7 @@
 - date: 2016-12-14
   author: siriusjack
   title: 音声認識でHOUSEの照明を点けたり消したりしてみた
-  url: https://tech.camph.net/controll_lights_wstt/
+  url: http://tech.camph.net/controll_lights_wstt/
 
 - date: 2016-12-15
   author: KojiAomatsu
@@ -381,7 +381,7 @@
 - date: 2016-12-21
   author: ytmatsuge
   title: 初心者がサクッとデザインしたい時に使えたサービス9選
-  url: https://tech.camph.net/design-tools-for-beginners/
+  url: http://tech.camph.net/design-tools-for-beginners/
 
 - date: 2016-12-22
   author: KojiAomatsu
