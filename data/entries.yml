@@ -1,17 +1,17 @@
 - date: 2014-12-01
   author: ymyzk
   title: CAMPHOR- アドベントカレンダー 2014 を始めます!
-  url: https://blog.camph.net/news/advent-calendar-2014/
+  url: http://blog.camph.net/news/advent-calendar-2014/
 
 - date: 2014-12-02
   author: ohmuraken
   title: 彼女のつくりかた (京大11月祭にて)
-  url: https://blog.camph.net/news/howtomakemygirlfriend2/
+  url: http://blog.camph.net/news/howtomakemygirlfriend2/
 
 - date: 2014-12-03
   author: morishin
   title: CAMPHOR-のYo活用
-  url: https://blog.camph.net/news/useful-yo/
+  url: http://blog.camph.net/news/useful-yo/
 
 - date: 2014-12-04
   author: kohey18
@@ -26,17 +26,17 @@
 - date: 2014-12-06
   author: yaitaimo
   title: CAMPHOR-HOUSEの庭を美白した話
-  url: https://blog.camph.net/event/camphor-house-garden/
+  url: http://blog.camph.net/event/camphor-house-garden/
 
 - date: 2014-12-07
   author: tomonkey1
   title: 宅建挑戦記
-  url: https://blog.camph.net/event/takken/
+  url: http://blog.camph.net/event/takken/
 
 - date: 2014-12-08
   author: asadaman
   title: ロボットに負けたくない
-  url: https://blog.camph.net/news/robo/
+  url: http://blog.camph.net/news/robo/
 
 - date: 2014-12-09
   author: akaaariiiiin
@@ -46,7 +46,7 @@
 - date: 2014-12-10
   author: mikasakasa
   title: ノンデザイナーがそれっぽいWebデザインを作る話
-  url: https://blog.camph.net/news/non-designer/
+  url: http://blog.camph.net/news/non-designer/
 
 - date: 2014-12-11
   author: ryota-ka
@@ -56,7 +56,7 @@
 - date: 2014-12-12
   author: siriusjack
   title: 食べられるドングリの見分け方(ドイツ編)
-  url: https://blog.camph.net/news/nuts_eating_in_germany/
+  url: http://blog.camph.net/news/nuts_eating_in_germany/
 
 - date: 2014-12-13
   author: yustoris
@@ -66,7 +66,7 @@
 - date: 2014-12-14
   author: kakenn
   title: 格安3Dプリンター「daVinci 2.0」を買ってみた。
-  url: https://blog.camph.net/news/buy-davinci-2-0/
+  url: http://blog.camph.net/news/buy-davinci-2-0/
 
 - date: 2014-12-15
   author: ymyzk
@@ -86,12 +86,12 @@
 - date: 2014-12-18
   author: ohmuraken
   title: 京都の学生が集まる町家ワークスペースCAMPHOR- HOUSEの紹介
-  url: https://blog.camph.net/news/about-house/
+  url: http://blog.camph.net/news/about-house/
 
 - date: 2014-12-19
   author: kohey18
   title: Gyazoの使い方を熱く語るぞ!
-  url: https://blog.camph.net/tool/useful_gyazo/
+  url: http://blog.camph.net/tool/useful_gyazo/
 
 - date: 2014-12-20
   author: murata_atsumi
@@ -116,12 +116,12 @@
 - date: 2014-12-24
   author: ohmuraken
   title: サイボウズさんとSelenium勉強会を開催しました
-  url: https://blog.camph.net/event/selenium-with-cybozu/
+  url: http://blog.camph.net/event/selenium-with-cybozu/
 
 - date: 2014-12-25
   author: kohey18
   title: CAMPHOR- Advent Calendar 2014をまとめるよ！
-  url: https://blog.camph.net/news/summary-camphor-advent-calendar-2014/
+  url: http://blog.camph.net/news/summary-camphor-advent-calendar-2014/
 
 - date: 2015-12-01
   author: ymyzk
@@ -146,7 +146,7 @@
 - date: 2015-12-05
   author: ohmuraken
   title: クラウドファンディングしてみました
-  url: https://blog.camph.net/news/crowdfunding/
+  url: http://blog.camph.net/news/crowdfunding/
 
 - date: 2015-12-06
   author: kakenn
@@ -256,7 +256,7 @@
 - date: 2015-12-27
   author: ymyzk
   title: "PyLadies Kyoto Meetup #1 の実施と多様性のあるコミュニティ作りについて"
-  url: https://blog.camph.net/event/pyladies-kyoto-and-diversity/
+  url: http://blog.camph.net/event/pyladies-kyoto-and-diversity/
 
 - date: 2015-12-28
   author: kakenn
@@ -276,7 +276,7 @@
 - date: 2015-12-31
   author: yaitaimo
   title: CAMPHOR- 2015 の総括
-  url: https://blog.camph.net/news/camphor-2015/
+  url: http://blog.camph.net/news/camphor-2015/
 
 - date: 2016-12-01
   author: ymyzk
@@ -356,7 +356,7 @@
 - date: 2016-12-16
   author: yu-i9
   title: 「『圏論勉強会』を見る会」を開催しています！
-  url: https://blog.camph.net/event/category-theory/
+  url: http://blog.camph.net/event/category-theory/
 
 - date: 2016-12-17
   author: andoshin11
@@ -376,7 +376,7 @@
 - date: 2016-12-20
   author: shiba6v
   title: LINE BOT CARAVANを開催しました！
-  url: https://blog.camph.net/event/line-bot-caravan/
+  url: http://blog.camph.net/event/line-bot-caravan/
 
 - date: 2016-12-21
   author: ytmatsuge
@@ -396,9 +396,9 @@
 - date: 2016-12-24
   author: ymyzk
   title: Android 勉強会の紹介と勉強会開催の知見
-  url: https://blog.camph.net/event/android-app/
+  url: http://blog.camph.net/event/android-app/
 
 - date: 2016-12-25
   author: ytmatsuge
   title: CAMPHOR- 2016 の総括と「幸せなコミュニティーづくり」について
-  url: https://blog.camph.net/news/camphor-2016/
+  url: http://blog.camph.net/news/camphor-2016/
