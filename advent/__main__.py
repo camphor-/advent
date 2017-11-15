@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from collections import OrderedDict
 from datetime import datetime
 from os import path
@@ -9,9 +8,9 @@ from jinja2 import Environment, FileSystemLoader
 import pytz
 import yaml
 
-from advent.models import Author, Entry
+from .models import Author, Entry
 
-root_dir = path.dirname(path.abspath(__file__))
+root_dir = path.dirname(path.dirname(path.abspath(__file__)))
 data_dir = path.join(root_dir, "data")
 source_dir = path.join(root_dir, "source")
 output_dir = path.join(root_dir, "output")
@@ -90,6 +89,9 @@ def run(debug: bool = False):
         f.write(html)
 
 
-if __name__ == "__main__":
+def main():
     debug = "--debug" in sys.argv[1:]
     run(debug=debug)
+
+
+main()

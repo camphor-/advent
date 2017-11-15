@@ -34,18 +34,17 @@ jobs:
       - run:
           command: |
             source venv/bin/activate
-            flake8 run.py advent
+            flake8 advent
 
       - run:
           command: |
             source venv/bin/activate
             mypy advent
-            mypy run.py
 
       - run:
           command: |
             source venv/bin/activate
-            python run.py
+            python -m advent
 
       - run:
           command: java -jar dist/vnu.jar --verbose output/index.html
