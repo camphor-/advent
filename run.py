@@ -62,8 +62,7 @@ def load_entries() -> OrderedDict:
 
 def minify_html(html: str) -> str:
     lines = iter(html.split("\n"))
-    lines = map(lambda l: l.strip(), lines)
-    lines = filter(lambda l: l != "", lines)
+    lines = filter(lambda line: line != "", map(lambda l: l.strip(), lines))
     return "\n".join(lines)
 
 
