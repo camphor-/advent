@@ -1,0 +1,51 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: python:3.6-stretch
+
+    steps:
+      - checkout
+
+      - run:
+          command: |
+            apt update
+            apt install -y openjdk-8-jre-headless unzip
+
+      - run:
+          command: |
+            wget -O vnu.zip https://github.com/validator/validator/releases/download/17.11.1/vnu.jar_17.11.1.zip
+            unzip vnu.zip
+
+      - restore_cache:
+          key: requirements-{{ .Branch }}-{{ checksum "requirements.txt" }}-{{ checksum "requirements.test.txt" }}
+
+      - run:
+          command: |
+            python3 -m venv venv
+            source venv/bin/activate
+            pip install -r requirements.txt -r requirements.test.txt
+
+      - save_cache:
+          key: requirements-{{ .Branch }}-{{ checksum "requirements.txt" }}-{{ checksum "requirements.test.txt" }}
+          paths:
+            - "venv"
+
+      - run:
+          command: |
+            source venv/bin/activate
+            flake8 run.py advent
+
+      - run:
+          command: |
+            source venv/bin/activate
+            mypy advent
+            mypy run.py
+
+      - run:
+          command: |
+            source venv/bin/activate
+            python run.py
+
+      - run:
+          command: java -jar dist/vnu.jar --verbose output/index.html
