@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-Jinja2==2.9.5
-MarkupSafe==0.23          # via jinja2
-pytz==2016.10
-PyYAML==3.12
+jinja2==2.10
+markupsafe==1.0           # via jinja2
+pytz==2017.3
+pyyaml==3.12
