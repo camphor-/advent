@@ -39,7 +39,7 @@ jobs:
       - run:
           command: |
             source venv/bin/activate
-            mypy advent
+            mypy --strict advent
 
       - run:
           command: |

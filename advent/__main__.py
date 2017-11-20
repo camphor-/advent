@@ -65,7 +65,7 @@ def minify_html(html: str) -> str:
     return "\n".join(lines)
 
 
-def run(debug: bool = False):
+def run(debug: bool = False) -> None:
     context = {
         "debug": debug,
         "description": (
@@ -89,7 +89,7 @@ def run(debug: bool = False):
         f.write(html)
 
 
-def main():
+def main() -> None:
     debug = "--debug" in sys.argv[1:]
     run(debug=debug)
 
