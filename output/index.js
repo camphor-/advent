@@ -13,7 +13,8 @@ $(document).ready(function () {
       },
       dataType: "jsonp"
     }).done(function (count) {
-      $item.html(count + " Users");
+      var suffix = count === 1 ? "User" : "Users";
+      $item.html(count + " " + suffix);
     });
   });
 });
