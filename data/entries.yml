@@ -500,8 +500,8 @@
 
 - date: 2017-12-20
   author: ymyzk
-  title: パッケージマネージャについて (仮)
-  url: null
+  title: パッケージマネージャがパッケージをインストールする仕組み
+  url: https://blog.ymyzk.com/2017/12/how-packages-are-installed/
 
 - date: 2017-12-21
   author: ryota-ka
