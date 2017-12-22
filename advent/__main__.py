@@ -1,6 +1,6 @@
 from collections import OrderedDict
 from datetime import datetime
-from os import path
+from pathlib import Path
 import sys
 from typing import Any, Dict
 
@@ -10,18 +10,18 @@ import yaml
 
 from .models import Author, Entry
 
-root_dir = path.dirname(path.dirname(path.abspath(__file__)))
-data_dir = path.join(root_dir, "data")
-source_dir = path.join(root_dir, "source")
-output_dir = path.join(root_dir, "output")
-loader = FileSystemLoader(source_dir, encoding="utf-8")
+root_dir = Path(__file__).parent.parent
+data_dir = root_dir / "data"
+source_dir = root_dir / "source"
+output_dir = root_dir / "output"
+loader = FileSystemLoader(str(source_dir), encoding="utf-8")
 env = Environment(loader=loader)
 
 today = datetime.now(pytz.timezone("Asia/Tokyo")).date()
 
 
 def load_authors() -> Dict[str, Author]:
-    with open(path.join(data_dir, "authors.yml")) as f:
+    with open(data_dir / "authors.yml") as f:
         authors_list = yaml.load(f)
 
     authors = {}
@@ -47,7 +47,7 @@ def load_entries() -> OrderedDict:
 
         return entry
 
-    with open(path.join(data_dir, "entries.yml")) as f:
+    with open(data_dir / "entries.yml") as f:
         entries = [load_entry(d) for d in yaml.load(f)]
 
     # Aggregate
@@ -79,13 +79,13 @@ def run(debug: bool = False) -> None:
     filename = "index.html"
     template = env.get_template(filename)
     html = minify_html(template.render(**context))
-    with open(path.join(output_dir, filename), "w") as f:
+    with open(output_dir / filename, "w") as f:
         f.write(html)
 
     filename = "amp.html"
     template = env.get_template(filename)
     html = minify_html(template.render(**context))
-    with open(path.join(output_dir, filename), "w") as f:
+    with open(output_dir / filename, "w") as f:
         f.write(html)
 
 
