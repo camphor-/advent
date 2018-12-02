@@ -14,7 +14,7 @@ jobs:
 
       - run:
           command: |
-            wget -O vnu.zip https://github.com/validator/validator/releases/download/17.11.1/vnu.jar_17.11.1.zip
+            wget -O vnu.zip https://github.com/validator/validator/releases/download/18.11.5/vnu.jar_18.11.5.zip
             unzip vnu.zip
 
       - restore_cache:

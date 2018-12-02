@@ -5,6 +5,6 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 jinja2==2.10
-markupsafe==1.0           # via jinja2
-pytz==2017.3
-pyyaml==3.12
+markupsafe==1.1.0         # via jinja2
+pytz==2018.7
+pyyaml==3.13
