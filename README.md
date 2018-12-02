@@ -15,6 +15,8 @@ Edit
 0. Edit [data/authors.yml](data/authors.yml)
 0. Edit [data/entries.yml](data/entries.yml)
 
+If author, title, or url of an entry is not decided, set null.
+
 Compile & Development
 ---------------------
 0. Run `docker-compose up -d`
