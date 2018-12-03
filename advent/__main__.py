@@ -1,8 +1,7 @@
-from collections import OrderedDict
 from datetime import datetime
 from pathlib import Path
 import sys
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 from jinja2 import Environment, FileSystemLoader
 import pytz
@@ -23,16 +22,11 @@ today = datetime.now(pytz.timezone("Asia/Tokyo")).date()
 def load_authors() -> Dict[str, Author]:
     with open(data_dir / "authors.yml") as f:
         authors_list = yaml.load(f)
-
-    authors = {}
-    for author_dict in authors_list:
-        author = Author(**author_dict)
-        authors[author.name] = author
-
-    return authors
+    authors = [Author(**d) for d in authors_list]
+    return {author.name: author for author in authors}
 
 
-def load_entries() -> OrderedDict:
+def load_entries() -> Dict[int, List[Entry]]:
     authors = load_authors()
 
     def load_entry(d: Dict[str, Any]) -> Entry:
@@ -51,7 +45,7 @@ def load_entries() -> OrderedDict:
         entries = [load_entry(d) for d in yaml.load(f)]
 
     # Aggregate
-    entries_by_year: OrderedDict = OrderedDict()
+    entries_by_year = {}
     years = list({e.date.year for e in entries})
     for year in sorted(years, reverse=True):
         entries_by_year[year] = [e for e in entries if e.date.year == year]
