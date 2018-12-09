@@ -48,3 +48,8 @@ jobs:
 
       - run:
           command: java -jar dist/vnu.jar --verbose output/index.html
+
+      - run:
+          command: |
+            source venv/bin/activate
+            flake8 gen_tweet.py
