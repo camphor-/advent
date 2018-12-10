@@ -34,7 +34,7 @@ jobs:
       - run:
           command: |
             source venv/bin/activate
-            flake8 advent
+            flake8 advent gen_tweet.py
 
       - run:
           command: |
