@@ -21,3 +21,15 @@ Compile & Development
 ---------------------
 0. Run `docker-compose up -d`
 0. Open http://localhost:8000
+
+Generate Tweet & Post
+---------------------
+Tweet:
+```
+$ python gen_tweet.py
+```
+
+Facebook Post (一部):
+```
+$ cat data/entries.yml | sed -E "s;- date: [0-9]{4}-([0-9]{2})-([0-9]{2});\1/\2;" | sed -E "s;  author: (.*)$;  \1 による;" | sed -E "s;  title: (.*)$;  「\1」;" | sed -E "s;  url: (.*)$;  \1;"
+```
