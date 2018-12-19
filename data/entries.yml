@@ -625,8 +625,8 @@
 
 - date: 2018-12-20
   author: ymyzk
-  title: Python ウェブアプリのためのプロファイラ wsgi_lineprof の仕組み(仮)
-  url: null
+  title: Python ウェブアプリのためのプロファイラ wsgi_lineprof の仕組み
+  url: https://blog.ymyzk.com/2018/12/how-wsgi-lineprof-works/
 
 - date: 2018-12-21
   author: marty1martie
