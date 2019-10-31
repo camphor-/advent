@@ -14,3 +14,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", CustomYuGothic, Meiryo, sans-serif;
   font-feature-settings: "palt";
 }
+
+.schedule{
+  white-space: nowrap;
+}
