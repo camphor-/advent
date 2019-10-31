@@ -13,7 +13,7 @@ today = datetime.now(pytz.timezone("Asia/Tokyo")).date()
 
 def get_today_entry():
     with open(data_dir / "entries.yml") as f:
-        entries_list = yaml.load(f)
+        entries_list = yaml.load(f, Loader=yaml.SafeLoader)
     for d in entries_list:
         if d["date"] == today:
             return models.Entry(**d)
@@ -22,7 +22,7 @@ def get_today_entry():
 
 def get_author(name):
     with open(data_dir / "authors.yml") as f:
-        authors_list = yaml.load(f)
+        authors_list = yaml.load(f, Loader=yaml.SafeLoader)
     for d in authors_list:
         if d["name"] == name:
             return models.Author(**d)

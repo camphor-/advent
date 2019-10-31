@@ -21,7 +21,7 @@ today = datetime.now(pytz.timezone("Asia/Tokyo")).date()
 
 def load_authors() -> Dict[str, Author]:
     with open(data_dir / "authors.yml") as f:
-        authors_list = yaml.load(f)
+        authors_list = yaml.load(f, Loader=yaml.SafeLoader)
     authors = [Author(**d) for d in authors_list]
     return {author.name: author for author in authors}
 
@@ -42,7 +42,7 @@ def load_entries() -> Dict[int, List[Entry]]:
         return entry
 
     with open(data_dir / "entries.yml") as f:
-        entries = [load_entry(d) for d in yaml.load(f)]
+        entries = [load_entry(d) for d in yaml.load(f, Loader=yaml.SafeLoader)]
 
     # Aggregate
     entries_by_year = {}
