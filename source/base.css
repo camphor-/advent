@@ -1,7 +1,8 @@
 @font-face {
   font-family: CustomYuGothic;
   font-weight: normal;
-  src: local("YuGothic-Medium"), local("Yu Gothic Medium"), local("YuGothic-Regular");
+  src: local("YuGothic-Medium"), local("Yu Gothic Medium"),
+    local("YuGothic-Regular");
 }
 
 @font-face {
@@ -11,10 +12,17 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", CustomYuGothic, Meiryo, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", CustomYuGothic, Meiryo, sans-serif;
   font-feature-settings: "palt";
 }
 
-.schedule{
+.schedule {
   white-space: nowrap;
+  font-size: 14px;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem;
 }
