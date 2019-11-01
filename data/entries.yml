@@ -615,7 +615,7 @@
 
 - date: 2018-12-18
   author: ぷらす
-  title: 人の顔を絵文字 &#x1f607; に変換するWebサービスをAmazon Rekognition x Serverlessで開発して、デプロイをCIで自動化した話
+  title: WebサービスをAmazon Rekognition x Serverlessで開発してみた
   url: https://qiita.com/plus_kyoto/items/fa0215cee44251bf2e50
 
 - date: 2018-12-19
