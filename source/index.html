@@ -114,12 +114,20 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="https://blog.camph.net" target="_blank" class="nav-link"
+            <a
+              href="https://blog.camph.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link"
               >Blog</a
             >
           </li>
           <li class="nav-item">
-            <a href="https://tech.camph.net" target="_blank" class="nav-link"
+            <a
+              href="https://tech.camph.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link"
               >Tech Blog</a
             >
           </li>
@@ -127,6 +135,7 @@
             <a
               href="https://twitter.com/CamphorKyoto"
               target="_blank"
+              rel="noopener noreferrer"
               class="nav-link"
               >Twitter</a
             >
@@ -135,12 +144,17 @@
             <a
               href="https://www.facebook.com/Camphorcamphor/"
               target="_blank"
+              rel="noopener noreferrer"
               class="nav-link"
               >Facebook</a
             >
           </li>
           <li class="nav-item">
-            <a href="https://camph.net" target="_blank" class="nav-link"
+            <a
+              href="https://camph.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link"
               >Website</a
             >
           </li>
@@ -183,18 +197,24 @@
                 <td>{{ entry.date.month }}/{{ entry.date.day }}</td>
                 <td>
                   {% if entry.author %} {% if entry.author_url %}
-                  <a href="{{ entry.author_url }}" target="_blank">{{
-                    entry.author
-                  }}</a>
+                  <a
+                    href="{{ entry.author_url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >{{ entry.author }}</a
+                  >
                   {% else %}
                   {{ entry.author }}
                   {% endif %} {% else %} 未定 {% endif %}
                 </td>
                 <td>
                   {% if entry.title %} {% if entry.url %}
-                  <a href="{{ entry.url }}" target="_blank">{{
-                    entry.title
-                  }}</a>
+                  <a
+                    href="{{ entry.url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >{{ entry.title }}</a
+                  >
                   {% else %}
                   {{ entry.title }}
                   {% endif %} {% else %} 未定 {% endif %}
@@ -206,6 +226,7 @@
                     class="hateb-link"
                     data-url="{{ entry.url }}"
                     target="_blank"
+                    rel="noopener noreferrer"
                     >Loading</a
                   >
                   {% else %} - {% endif %}
@@ -229,6 +250,8 @@
         class="btn twitter"
         href="https://twitter.com/intent/tweet?text=CAMPHOR%2D%20Advent%20Calendar&url=https%3A%2F%2Fadvent.camph.net%2F&via=CamphorKyoto&related=CamphorKyoto"
         target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share on Twitter"
       >
         <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
@@ -236,6 +259,8 @@
         class="btn facebook"
         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadvent.camph.net%2F"
         target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share on Facebook"
       >
         <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
@@ -249,8 +274,8 @@
       }
     </script>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
     <script
