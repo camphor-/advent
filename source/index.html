@@ -1,101 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>{{ title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="keywords"
-      content="Advent,Calendar,アドベントカレンダー,CAMPHOR-,京都,学生,IT"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Advent,Calendar,アドベントカレンダー,CAMPHOR-,京都,学生,IT">
     <meta
       name="description"
-      content="京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。様々な記事を毎日追加していきます。"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ title }}" />
-    <meta property="og:site_name" content="{{ title }}" />
-    <meta property="og:description" content="{{ description }}" />
-    <meta property="og:url" content="{{ root }}" />
-    <meta property="og:image" content="{{ root }}logo_ogp_3.png" />
-    <meta property="og:locale" content="ja_JP" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@CamphorKyoto" />
-    <meta name="twitter:title" content="{{ title }}" />
-    <meta name="twitter:description" content="{{ description }}" />
-    <meta name="twitter:image" content="{{ root }}logo_twitter_2.png" />
+      content="京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。様々な記事を毎日追加していきます。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ root }}">
+    <meta property="og:image" content="{{ root }}logo_ogp_3.png">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@CamphorKyoto">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ root }}logo_twitter_2.png">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="amphtml" href="{{ root }}amp.html" />
+      crossorigin="anonymous">
+    <link rel="amphtml" href="{{ root }}amp.html">
     <style>
       {% include "base.css" %}
-
       .jumbotron h1 {
-          font-size: 48px;
+        font-size: 48px;
       }
-
-      @media (max-width: 768px) {
-          .jumbotron h1 {
-              font-size: 32px;
-          }
+      @media(max-width: 768px) {
+        .jumbotron h1 {
+          font-size: 32px;
+        }
       }
-
-      @media (max-width: 320px) {
-          .jumbotron h1 {
-              font-size: 25px;
-          }
-      }
-
-      .social-buttons {
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-      }
-
-      .social-buttons a {
-          display: inline-block;
-          margin: 0 4px;
-          border-radius: 25px;
-          border-width: 0;
-          padding: 0;
-          width: 50px;
-          height: 50px;
-          line-height: 50px;
+      @media(max-width: 320px) {
+        .jumbotron h1 {
           font-size: 25px;
-          color: white;
+        }
       }
-
+      .social-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      .social-buttons a {
+        display: inline-block;
+        margin: 0 4px;
+        border-radius: 25px;
+        border-width: 0;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        color: white;
+      }
       .social-buttons a:focus,
       .social-buttons a:hover {
-          color: white;
+        color: white;
       }
-
       .social-buttons a.twitter {
-          background-color: #55acee;
+        background-color: #55acee;
       }
-
       .social-buttons a.twitter:focus,
       .social-buttons a.twitter:hover {
-          background-color: #4790c7;
+        background-color: #4790c7;
       }
-
       .social-buttons a.facebook {
-          background-color: #3b5998;
+        background-color: #3b5998;
       }
-
       .social-buttons a.facebook:focus,
       .social-buttons a.facebook:hover {
-          background-color: #2D4373;
+        background-color: #2D4373;
       }
     </style>
   </head>
@@ -105,8 +89,7 @@
         type="button"
         class="navbar-toggler collapsed"
         data-toggle="collapse"
-        data-target="#navbar-collapse"
-      >
+        data-target="#navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         &#x2630;
       </button>
@@ -114,49 +97,27 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a
-              href="https://blog.camph.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-link"
-              >Blog</a
-            >
+            <a href="https://blog.camph.net" target="_blank" rel="noopener noreferrer" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a
-              href="https://tech.camph.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-link"
-              >Tech Blog</a
-            >
+            <a href="https://tech.camph.net" target="_blank" rel="noopener noreferrer" class="nav-link">Tech Blog</a>
           </li>
           <li class="nav-item">
             <a
               href="https://twitter.com/CamphorKyoto"
               target="_blank"
               rel="noopener noreferrer"
-              class="nav-link"
-              >Twitter</a
-            >
+              class="nav-link">Twitter</a>
           </li>
           <li class="nav-item">
             <a
               href="https://www.facebook.com/Camphorcamphor/"
               target="_blank"
               rel="noopener noreferrer"
-              class="nav-link"
-              >Facebook</a
-            >
+              class="nav-link">Facebook</a>
           </li>
           <li class="nav-item">
-            <a
-              href="https://camph.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-link"
-              >Website</a
-            >
+            <a href="https://camph.net" target="_blank" rel="noopener noreferrer" class="nav-link">Website</a>
           </li>
         </ul>
       </div>
@@ -166,11 +127,7 @@
         <div class="row">
           <div class="col-md-12 offset-md-2 col-lg-8 text-center">
             <h1>
-              <img
-                class="img-fluid"
-                src="./header.svg"
-                alt="CAMPHOR- Advent Calendar"
-              />
+              <img class="img-fluid" src="./header.svg" alt="CAMPHOR- Advent Calendar">
             </h1>
             <p class="lead">
               CAMPHOR- のメンバーとOB・OGが様々なトピックをお届けします!
@@ -182,67 +139,60 @@
     <div class="container">
       <div class="row">
         {% for year, entries in entries_for_years.items() %}
-        <div class="col-12">
-          <h2>{{ year }}</h2>
-          <div class="table-responsive">
-            <table class="table table-striped schedule">
-              <tr>
-                <th>日</th>
-                <th>担当</th>
-                <th>タイトル</th>
-                <th class="text-right">はてブ</th>
-              </tr>
-              {% for entry in entries %}
-              <tr>
-                <td>{{ entry.date.month }}/{{ entry.date.day }}</td>
-                <td>
-                  {% if entry.author %} {% if entry.author_url %}
-                  <a
-                    href="{{ entry.author_url }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >{{ entry.author }}</a
-                  >
-                  {% else %}
-                  {{ entry.author }}
-                  {% endif %} {% else %} 未定 {% endif %}
-                </td>
-                <td>
-                  {% if entry.title %} {% if entry.url %}
-                  <a
-                    href="{{ entry.url }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >{{ entry.title }}</a
-                  >
-                  {% else %}
-                  {{ entry.title }}
-                  {% endif %} {% else %} 未定 {% endif %}
-                </td>
-                <td class="text-right">
-                  {% if entry.url %}
-                  <a
-                    href="http://b.hatena.ne.jp/entry/{{ entry.url }}"
-                    class="hateb-link"
-                    data-url="{{ entry.url }}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Loading</a
-                  >
-                  {% else %} - {% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </table>
+          <div class="col-12">
+            <h2>{{ year }}</h2>
+            <div class="table-responsive">
+              <table class="table table-striped schedule">
+                <tr>
+                  <th>日</th>
+                  <th>担当</th>
+                  <th>タイトル</th>
+                  <th class="text-right">はてブ</th>
+                </tr>
+                {% for entry in entries %}
+                  <tr>
+                    <td>{{ entry.date.month }}/{{ entry.date.day }}</td>
+                    <td>
+                      {% if entry.author %}
+                        {% if entry.author_url %}
+                          <a href="{{ entry.author_url }}" target="_blank" rel="noopener noreferrer">{{ entry.author }}</a>
+                        {% else %}
+                          {{ entry.author }}
+                        {% endif %}
+                      {% else %}
+                        未定
+                      {% endif %}
+                    </td>
+                    <td>
+                      {% if entry.title %}
+                        {% if entry.url %}
+                          <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+                        {% else %}
+                          {{ entry.title }}
+                        {% endif %}
+                      {% else %}
+                        未定
+                      {% endif %}
+                    </td>
+                    <td class="text-right">
+                      {% if entry.url %}
+                        <a href="http://b.hatena.ne.jp/entry/{{ entry.url }}" class="hateb-link" data-url="{{ entry.url }}" target="_blank" rel="noopener noreferrer">Loading</a>
+                      {% else %}
+                        -
+                      {% endif %}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </table>
+            </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </div>
     <footer class="text-center">
-      <hr />
+      <hr>
       <p>
-        Copyright &copy; 2014-2018, CAMPHOR-.
+        Copyright &copy; 2014-2019, CAMPHOR-.
       </p>
     </footer>
     <div class="social-buttons">
@@ -251,8 +201,7 @@
         href="https://twitter.com/intent/tweet?text=CAMPHOR%2D%20Advent%20Calendar&url=https%3A%2F%2Fadvent.camph.net%2F&via=CamphorKyoto&related=CamphorKyoto"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Share on Twitter"
-      >
+        aria-label="Share on Twitter">
         <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
       <a
@@ -260,8 +209,7 @@
         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fadvent.camph.net%2F"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Share on Facebook"
-      >
+        aria-label="Share on Facebook">
         <i class="fa fa-facebook" aria-hidden="true"></i>
       </a>
     </div>
@@ -276,43 +224,25 @@
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="./index.js"></script>
     {% if not debug %}
-    <script>
-      (function(i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
-      ga("create", "UA-36244002-7", "auto");
-      ga("send", "pageview");
-    </script>
+      <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-36244002-7', 'auto');
+        ga('send', 'pageview');
+      </script>
     {% endif %}
   </body>
 </html>
