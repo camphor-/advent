@@ -6,6 +6,11 @@ $(document).ready(function () {
     return url.replace(/^https?:\/\//, "");
   }
 
+  function isHatebloDomain(url){
+    var u = new URL(url);
+    return u.host.endsWith("hateblo.jp");
+  }
+
   var urlTo$ = {};
   $(".hateb-link")
     .each(function (i, item) {
@@ -40,7 +45,7 @@ $(document).ready(function () {
         var $item = urlTo$[urlWithoutProtocol];
         var previousCount = $item.data("count");
         previousCount = previousCount ? previousCount : 0;
-        var count = urlCount[1] + previousCount;
+        var count = isHatebloDomain($item.data("url"))? urlCount[1] : urlCount[1] + previousCount;
         var suffix = count === 1 ? "User" : "Users";
         $item.data("count", count);
         $item.html(count + " " + suffix);
