@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, Iterable, List
 
 from jinja2 import Environment, FileSystemLoader
 import pytz
@@ -26,7 +26,7 @@ def load_authors() -> Dict[str, Author]:
     return {author.name: author for author in authors}
 
 
-def load_entries() -> Dict[int, List[Entry]]:
+def load_entries() -> List[Entry]:
     authors = load_authors()
 
     def load_entry(d: Dict[str, Any]) -> Entry:
@@ -42,14 +42,14 @@ def load_entries() -> Dict[int, List[Entry]]:
         return entry
 
     with open(data_dir / "entries.yml") as f:
-        entries = [load_entry(d) for d in yaml.load(f, Loader=yaml.SafeLoader)]
+        return list(map(load_entry, yaml.load(f, Loader=yaml.SafeLoader)))
 
-    # Aggregate
+
+def group_entries_by_year(entries: Iterable[Entry]) -> Dict[int, List[Entry]]:
     entries_by_year = {}
     years = list({e.date.year for e in entries})
     for year in sorted(years, reverse=True):
         entries_by_year[year] = [e for e in entries if e.date.year == year]
-
     return entries_by_year
 
 
@@ -60,12 +60,14 @@ def minify_html(html: str) -> str:
 
 
 def run(debug: bool = False) -> None:
+    entries = load_entries()
+    entries_by_year = group_entries_by_year(entries)
     context = {
         "debug": debug,
         "description": (
             "京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。"
             "様々な記事を毎日追加していきます。"),
-        "entries_for_years": load_entries(),
+        "entries_for_years": entries_by_year,
         "root": "https://advent.camph.net/",
         "title": "CAMPHOR- Advent Calendar"
     }
