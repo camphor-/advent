@@ -59,6 +59,18 @@ def minify_html(html: str) -> str:
     return "\n".join(lines)
 
 
+def render_and_write(
+        filename: str,
+        context: Dict[str, Any],
+        minify: bool = True) -> None:
+    template = env.get_template(filename)
+    result = template.render(**context)
+    if minify:
+        result = minify_html(result)
+    with open(output_dir / filename, "w") as f:
+        f.write(result)
+
+
 def run(debug: bool = False) -> None:
     entries = load_entries()
     entries_by_year = group_entries_by_year(entries)
@@ -72,17 +84,8 @@ def run(debug: bool = False) -> None:
         "title": "CAMPHOR- Advent Calendar"
     }
 
-    filename = "index.html"
-    template = env.get_template(filename)
-    html = minify_html(template.render(**context))
-    with open(output_dir / filename, "w") as f:
-        f.write(html)
-
-    filename = "amp.html"
-    template = env.get_template(filename)
-    html = minify_html(template.render(**context))
-    with open(output_dir / filename, "w") as f:
-        f.write(html)
+    render_and_write("index.html", context)
+    render_and_write("amp.html", context)
 
 
 def main() -> None:
