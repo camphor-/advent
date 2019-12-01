@@ -13,7 +13,10 @@
     <link href="{{ entry.url }}" />
     <id>{{ entry.url }}</id>
     <updated>{{ entry.date }}T00:00:00+09:00</updated>
-    <summary>Some text.</summary>
+    <summary type="html">
+      CAMPHOR- Advent Calendar 2019 {{ entry.date.day }}日目の記事です。
+      <![CDATA[<a href="{{ entry.url }}">記事を読む</a>]]>
+    </summary>
     <author>
       <name>{{ entry.author }}</name>
       <uri>{{ entry.author_url }}</uri>
