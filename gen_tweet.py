@@ -34,7 +34,7 @@ def build_tweet(entry, author):
                 f"CAMPHOR- Advent Calendar {today.year} "
                 f"(https://advent.camph.net/) の本日の記事は、"
                 f"{author.name} ({author.url}) による 「{entry.title}」 です。\n"
-                f"{entry.url}\n"
+                f"{entry.url}"
             )
     return tweet
 
