@@ -31,10 +31,10 @@ def get_author(name):
 
 def build_tweet(entry, author):
     tweet = (
-                f"CAMPHOR- Advent Calendar {today.year} の本日の記事は、"
+                f"CAMPHOR- Advent Calendar {today.year} "
+                f"(https://advent.camph.net/) の本日の記事は、"
                 f"{author.name} ({author.url}) による 「{entry.title}」 です。\n"
-                f"{entry.url}\n\n"
-                "https://advent.camph.net/"
+                f"{entry.url}\n"
             )
     return tweet
 
