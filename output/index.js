@@ -45,16 +45,16 @@ $(document).ready(function () {
         var url = urlCount[0];
         var urlWithoutProtocol = getUrlWithoutProtocol(url);
         var $item = urlTo$[urlWithoutProtocol];
-        var previousCount = $item.data("count");
-        previousCount = previousCount ? previousCount : 0;
+        var previousCount = $item.data("count") ? $item.data("count") : 0 ;
 
-        var count =  urlCount[1] + previousCount
-        notAddingCountDomains.some(function(domain){
-          if (matchDomain($item.data("url"),domain)){
-            count -= previousCount;
-            return true;
-          }
+        var count = urlCount[1];
+        var isMatched = notAddingCountDomains.some(function(domain){
+          return matchDomain($item.data("url"), domain)
         });
+        if (!isMatched) {
+          count += previousCount;
+        }
+
         var suffix = count === 1 ? "User" : "Users";
         $item.data("count", count);
         $item.html(count + " " + suffix);
