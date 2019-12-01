@@ -6,6 +6,11 @@ $(document).ready(function () {
     return url.replace(/^https?:\/\//, "");
   }
 
+  function matchDomain(url,domain){
+    var u = new URL(url);
+    return u.host.endsWith(domain);
+  }
+
   var urlTo$ = {};
   $(".hateb-link")
     .each(function (i, item) {
@@ -17,6 +22,8 @@ $(document).ready(function () {
 
   var urls = Object.keys(urlTo$);
   var PER_PAGE = 50 / 2;  // Every request contains both HTTP and HTTPS urls
+
+  var notAddingCountDomains = ["hateblo.jp"]
 
   for (var page = 0; page < Math.ceil(urls.length / PER_PAGE); page++) {
     var urlsWithoutProtocol = [];
@@ -38,9 +45,16 @@ $(document).ready(function () {
         var url = urlCount[0];
         var urlWithoutProtocol = getUrlWithoutProtocol(url);
         var $item = urlTo$[urlWithoutProtocol];
-        var previousCount = $item.data("count");
-        previousCount = previousCount ? previousCount : 0;
-        var count = urlCount[1] + previousCount;
+        var previousCount = $item.data("count") ? $item.data("count") : 0 ;
+
+        var count = urlCount[1];
+        var isMatched = notAddingCountDomains.some(function(domain){
+          return matchDomain($item.data("url"), domain)
+        });
+        if (!isMatched) {
+          count += previousCount;
+        }
+
         var suffix = count === 1 ? "User" : "Users";
         $item.data("count", count);
         $item.html(count + " " + suffix);
