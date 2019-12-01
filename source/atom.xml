@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CAMPHOR- Advent Calendar</title>
+  <link href="{{ root }}" />
+  <link rel="self" href="{{ root }}atom.xml" />
+  <id>urn:uuid:5f3fa4d2-8bc8-4035-8412-7cca97f76f0a</id>
+  {% if latest_published_entries %}
+  <updated>{{ latest_published_entries.0.date }}T00:00:00+09:00</updated>
+  {% endif %}
+  {% for entry in latest_published_entries %}
+  <entry>
+    <title>{{ entry.title|escape }}</title>
+    <link href="{{ entry.url }}" />
+    <id>{{ entry.url }}</id>
+    <updated>{{ entry.date }}T00:00:00+09:00</updated>
+    <summary type="html">
+      CAMPHOR- Advent Calendar 2019 {{ entry.date.day }}日目の記事です。
+      <![CDATA[<a href="{{ entry.url }}">記事を読む</a>]]>
+    </summary>
+    <author>
+      <name>{{ entry.author }}</name>
+      <uri>{{ entry.author_url }}</uri>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>

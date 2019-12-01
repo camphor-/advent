@@ -1,4 +1,5 @@
 from datetime import datetime
+from operator import attrgetter
 from pathlib import Path
 import sys
 from typing import Any, Dict, Iterable, List
@@ -8,6 +9,9 @@ import pytz
 import yaml
 
 from .models import Author, Entry
+
+
+NUMBER_OF_LATEST_PUBLISHED_ENTRIES = 10
 
 root_dir = Path(__file__).parent.parent
 data_dir = root_dir / "data"
@@ -74,18 +78,23 @@ def render_and_write(
 def run(debug: bool = False) -> None:
     entries = load_entries()
     entries_by_year = group_entries_by_year(entries)
+    latest_published_entries = sorted(
+        filter(lambda e: e.url, entries), reverse=True, key=attrgetter("date")
+    )[:NUMBER_OF_LATEST_PUBLISHED_ENTRIES]
     context = {
         "debug": debug,
         "description": (
             "京都の学生コミュニティ CAMPHOR- の Advent Calendar 特設ページです。"
             "様々な記事を毎日追加していきます。"),
         "entries_for_years": entries_by_year,
+        "latest_published_entries": latest_published_entries,
         "root": "https://advent.camph.net/",
         "title": "CAMPHOR- Advent Calendar"
     }
 
     render_and_write("index.html", context)
     render_and_write("amp.html", context)
+    render_and_write("atom.xml", context)
 
 
 def main() -> None:
