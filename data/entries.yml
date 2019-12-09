@@ -704,9 +704,9 @@
   url: https://denden-seven.hatenablog.com/entry/2019/12/09/213915
 
 - date: 2019-12-11
-  author: どら
-  title: Gmail に届いた新幹線や映画の予定を自動登録するようにした話
-  url: https://blog.minoru.dev/2019/2019-camphor-advent/
+  author: p1ass
+  title: Kubernetesのイメージタグの更新を楽にするツールを作った
+  url: null
 
 - date: 2019-12-12
   author: tomokortn
@@ -714,9 +714,9 @@
   url: null
 
 - date: 2019-12-13
-  author: p1ass
-  title: null
-  url: null
+  author: どら
+  title: Gmail に届いた新幹線や映画の予定を自動登録するようにした話
+  url: https://blog.minoru.dev/2019/2019-camphor-advent/
 
 - date: 2019-12-14
   author: satomi
