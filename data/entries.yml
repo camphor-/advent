@@ -705,8 +705,8 @@
 
 - date: 2019-12-11
   author: p1ass
-  title: Kubernetesのイメージタグの更新を楽にするツールを作った
-  url: null
+  title: Kubernetesのイメージタグの更新を楽にするCLIツールをGoで作った
+  url: https://blog.p1ass.com/posts/mikku/
 
 - date: 2019-12-12
   author: tomokortn
