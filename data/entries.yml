@@ -735,8 +735,8 @@
 
 - date: 2019-12-17
   author: ymyzk
-  title: null
-  url: null
+  title: GitHub Actions を活用した Python プロジェクトの CI
+  url: https://blog.ymyzk.com/2019/12/github-actions-for-python-projects/
 
 - date: 2019-12-18
   author: yckao
