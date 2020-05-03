@@ -6,5 +6,5 @@
 #
 jinja2==2.11.2            # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
-pytz==2019.3              # via -r requirements.in
+pytz==2020.1              # via -r requirements.in
 pyyaml==5.3.1             # via -r requirements.in
