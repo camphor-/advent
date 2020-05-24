@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements.test.txt requirements.test.in
 #
-flake8==3.8.1             # via -r requirements.test.in
+flake8==3.8.2             # via -r requirements.test.in
 mccabe==0.6.1             # via flake8
 mypy-extensions==0.4.3    # via mypy
 mypy==0.770               # via -r requirements.test.in
