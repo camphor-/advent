@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: python:3.7-stretch
+      - image: python:3.8
 
     steps:
       - checkout
@@ -10,7 +10,7 @@ jobs:
       - run:
           command: |
             apt update
-            apt install -y openjdk-8-jre-headless unzip
+            apt install -y openjdk-11-jre-headless unzip
 
       - run:
           command: |
