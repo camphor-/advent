@@ -34,11 +34,12 @@ $(document).ready(function () {
         urlsWithoutProtocol.push("https://" + url);
       });
 
+    // Ref: http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getcount
     var query = urlsWithoutProtocol
       .map(function(link) { return "url=" + encodeURIComponent(link); })
       .join("&");
     $.ajax({
-      url: "https://b.hatena.ne.jp/entry.counts?" + query,
+      url: "https://bookmark.hatenaapis.com/count/entries?" + query,
       dataType: "jsonp"
     }).done(function (counts) {
       Object.entries(counts).forEach(function(urlCount) {
