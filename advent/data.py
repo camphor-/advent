@@ -1,7 +1,7 @@
-from datetime import datetime
+from datetime import date, datetime
 from operator import attrgetter
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Mapping
+from typing import Any, Dict, Iterable, List, Mapping, Optional
 
 import pytz
 import yaml
@@ -62,3 +62,14 @@ def get_last_published_entries(
     return sorted(
         filter(lambda e: e.url, entries), reverse=True, key=attrgetter("date")
     )[:n]
+
+
+def get_entry_for_day(
+        entries: Iterable[Entry],
+        day: date
+) -> Optional[Entry]:
+    """Find an entry on the given day if it exists"""
+    for entry in entries:
+        if entry.date == day:
+            return entry
+    return None
