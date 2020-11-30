@@ -26,7 +26,9 @@ Generate Tweet & Post
 ---------------------
 Tweet:
 ```
-$ python gen_tweet.py
+$ docker-compose exec advent python -m advent.twitter
+OR
+$ docker-compose exec advent python -m advent.twitter YYYY-MM-DD
 ```
 
 Facebook Post (一部):

@@ -5,7 +5,7 @@ import pytest
 from pytest_mock import MockerFixture
 
 from advent.data import (
-    get_last_published_entries, group_entries_by_year,
+    get_entry_for_day, get_last_published_entries, group_entries_by_year,
     load_authors, load_entries,
 )
 from advent.models import Author, Entry
@@ -152,3 +152,8 @@ def test_get_last_published_entries() -> None:
             author_url="https://example.com/camphor/",
         ),
     ]
+
+
+def test_get_entry_for_day() -> None:
+    assert get_entry_for_day(ENTRIES, date(2014, 12, 1)) == ENTRIES[0]
+    assert get_entry_for_day(ENTRIES, date(2014, 12, 31)) is None
