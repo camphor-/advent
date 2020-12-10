@@ -47,6 +47,43 @@
           font-size: 25px;
         }
       }
+      .entries-list {
+        font-size: 14px;
+        padding: 0;
+      }
+      .entry-item {
+        border-top: 1px solid #dee2e6;
+        padding: 0.5rem 1rem;
+        list-style: none;
+      }
+      .entry-item:nth-of-type(2n+1) {
+        background-color: rgba(0, 0, 0, .05);
+      }
+      .entry-item-date {
+        min-width: 4rem;
+      }
+      .entry-item-author {
+        min-width: 8rem;
+      }
+      /* For xs screens */
+      @media(max-width: 576px) {
+        .entries-list {
+          margin-left: -1rem;
+          margin-right: -1rem;
+        }
+        .entry-item-title {
+          flex: 0 0 100%;
+        }
+      }
+      .badge-hatena {
+        background-color: #00a4de;
+        color: #fff;
+      }
+      a.badge-hatena:focus, a.badge-hatena:hover {
+        background-color: #007dab;
+        color: #fff;
+        text-decoration: none;
+      }
       .social-buttons {
         position: fixed;
         bottom: 20px;
@@ -137,55 +174,47 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid" style="max-width: 1140px;">
       <div class="row">
         {% for year, entries in entries_for_years.items() %}
           <div class="col-12">
             <h2>{{ year }}</h2>
-            <div class="table-responsive">
-              <table class="table table-striped schedule">
-                <tr>
-                  <th>日</th>
-                  <th>担当</th>
-                  <th>タイトル</th>
-                  <th class="text-right">はてブ</th>
-                </tr>
-                {% for entry in entries %}
-                  <tr>
-                    <td>{{ entry.date.month }}/{{ entry.date.day }}</td>
-                    <td>
-                      {% if entry.author %}
-                        {% if entry.author_url %}
-                          <a href="{{ entry.author_url }}" target="_blank" rel="noopener noreferrer">{{ entry.author }}</a>
-                        {% else %}
-                          {{ entry.author }}
-                        {% endif %}
+            <ul class="entries-list">
+              {% for entry in entries %}
+              <li class="entry-item">
+                <div class="row">
+                  <div class="col font-weight-bold flex-grow-0 entry-item-date">
+                    {{ entry.date.month }}/{{ entry.date.day }}
+                  </div>
+                  <div class="col flex-grow-0 entry-item-author">
+                    {% if entry.author %}
+                      {% if entry.author_url %}
+                        <a href="{{ entry.author_url }}" target="_blank" rel="noopener noreferrer">{{ entry.author }}</a>
                       {% else %}
-                        -
+                        {{ entry.author }}
                       {% endif %}
-                    </td>
-                    <td>
-                      {% if entry.title %}
-                        {% if entry.url %}
-                          <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
-                        {% else %}
-                          {{ entry.title }}
-                        {% endif %}
-                      {% else %}
-                        -
-                      {% endif %}
-                    </td>
-                    <td class="text-right">
+                    {% else %}
+                      -
+                    {% endif %}
+                  </div>
+                  <div class="col entry-item-title">
+                    {% if entry.title %}
                       {% if entry.url %}
-                        <a href="http://b.hatena.ne.jp/entry/{{ entry.url }}" class="hateb-link" data-url="{{ entry.url }}" target="_blank" rel="noopener noreferrer">Loading</a>
+                        <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+                        <span class="ml-1">
+                          <a class="badge badge-pill badge-hatena hateb-link" data-url="{{ entry.url }}" href="#">B!</a>
+                        </span>
                       {% else %}
-                        -
+                        {{ entry.title }}
                       {% endif %}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </table>
-            </div>
+                    {% else %}
+                      -
+                    {% endif %}
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
         {% endfor %}
       </div>
@@ -193,7 +222,7 @@
     <footer class="text-center">
       <hr>
       <p>
-        Copyright &copy; 2014-2019, CAMPHOR-.
+        Copyright &copy; 2014-2020, CAMPHOR-.
       </p>
     </footer>
     <div class="social-buttons">
