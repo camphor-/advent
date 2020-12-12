@@ -22,11 +22,6 @@ body {
   font-size: 14px;
 }
 
-.table td,
-.table th {
-  padding: 0.5rem;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.6);
 }
