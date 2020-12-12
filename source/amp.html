@@ -12,67 +12,108 @@
       {% include "amp.css" %}
       {% include "base.css" %}
 
-      h1 {
-        font-size: 32px;
+      h2 {
+        margin: 0 0 0.5rem 1rem;
+        line-height: 1.2;
+        font-weight: 500;
+        font-size: 1.7rem;
       }
-
       .jumbotron {
-        padding: 30px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+      }
+      .lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+        text-align: center;
+      }
+      .entries-list {
+        font-size: 14px;
+        padding: 0;
+      }
+      .entry-item {
+        border-top: 1px solid #dee2e6;
+        padding: 0.5rem 1rem;
+        list-style: none;
+      }
+      .entry-item:nth-of-type(2n+1) {
+        background-color: rgba(0, 0, 0, .05);
+      }
+      .entry-item div:first-child {
+        margin-bottom: 0.1rem;
+      }
+      .entry-item-date {
+        display: inline-block;
+        min-width: 3rem;
+        font-weight: 700;
+      }
+      .badge-hatena {
+        background-color: #00a4de;
+        color: #fff;
+      }
+      a.badge-hatena:focus, a.badge-hatena:hover {
+        background-color: #007dab;
+        color: #fff;
+        text-decoration: none;
+      }
+      footer {
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="jumbotron">
-      <div>
-        <amp-img width="486" height="330" layout="responsive" src="./logo.svg" alt="CAMPHOR- ロゴ">
-        </div>
-        <h1 class="text-center">CAMPHOR-<br>Advent Calendar</h1>
-        <p class="lead text-center">
-          CAMPHOR- のメンバーとOB・OGが様々なトピックをお届けします!
-        </p>
-      </div>
+      <amp-img width="640" height="240" layout="responsive" src="./header.svg" alt="CAMPHOR- ロゴ"></amp-img>
+      <p class="lead">
+        CAMPHOR- のメンバーとOB・OGが様々なトピックをお届けします!
+      </p>
     </div>
     {% for year, entries in entries_for_years.items() %}
     <div>
       <h2>{{ year }}</h2>
-      <div class="table">
-        <table class="table table-striped schedule">
-          <tr><th>日</th><th>担当</th><th>タイトル</th></tr>
-          {% for entry in entries %}
-          <tr>
-            <td>{{ entry.date.day }}</td>
-            <td>
+      <ul class="entries-list">
+        {% for entry in entries %}
+        <li class="entry-item">
+          <div>
+            <span class="entry-item-date">
+              {{ entry.date.month }}/{{ entry.date.day }}
+            </span>
+            <span>
               {% if entry.author %}
                 {% if entry.author_url %}
-                  <a href="{{ entry.author_url }}" target="_blank">{{ entry.author }}</a>
+                  <a href="{{ entry.author_url }}" target="_blank" rel="noopener noreferrer">{{ entry.author }}</a>
                 {% else %}
                   {{ entry.author }}
                 {% endif %}
               {% else %}
                 -
               {% endif %}
-            </td>
-            <td>
-              {% if entry.title %}
-                {% if entry.url %}
-                <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
-                {% else %}
-                  {{ entry.title }}
-                {% endif %}
+            </span>
+          </div>
+          <div class="entry-item-title">
+            {% if entry.title %}
+              {% if entry.url %}
+                <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+                <span>
+                  <a class="badge badge-pill badge-hatena hateb-link" data-url="{{ entry.url }}" href="https://b.hatena.ne.jp/entry/{{ entry.url }}">B!</a>
+                </span>
               {% else %}
-                -
+                {{ entry.title }}
               {% endif %}
-            </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
+            {% else %}
+              -
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
     {% endfor %}
-    <footer class="text-center">
+    <footer>
       <hr>
       <p>
-        Copyright &copy; 2014-2018, CAMPHOR-.
+        Copyright &copy; 2014-2020, CAMPHOR-.
       </p>
     </footer>
     {% if not debug %}
