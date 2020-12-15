@@ -855,8 +855,8 @@
 
 - date: 2020-12-16
   author: honai
-  title: null
-  url: null
+  title: MakeをPythonのタスクランナーとして使う
+  url: https://blog.honai.me/post/makefile-python-task-runner
 
 - date: 2020-12-17
   author: sanpo_shiho
