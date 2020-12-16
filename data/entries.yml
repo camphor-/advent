@@ -2,531 +2,787 @@
   author: ymyzk
   title: CAMPHOR- アドベントカレンダー 2014 を始めます!
   url: http://blog.camph.net/news/advent-calendar-2014/
+  tags:
+    - CAMPHOR-
 
 - date: 2014-12-02
   author: ohmuraken
   title: 彼女のつくりかた (京大11月祭にて)
   url: http://blog.camph.net/news/howtomakemygirlfriend2/
+  tags:
+    - 生活
 
 - date: 2014-12-03
   author: morishin
   title: CAMPHOR-のYo活用
   url: http://blog.camph.net/news/useful-yo/
+  tags:
+    - CAMPHOR-
+    - Yo
 
 - date: 2014-12-04
   author: kohey18
   title: 「hubot start tv」で家のテレビの電源を付ける。
   url: http://tech.camph.net/hubot_start_tv/
+  tags:
+    - Hubot
+    - スマートホーム
 
 - date: 2014-12-05
   author: shotarok
   title: Python 3でお手軽並列計算 ~concurrent.futures を使った ngram 抽出~
   url: http://tech.camph.net/python3-concurrent-futures/
+  tags:
+    - Python
+    - 自然言語処理
 
 - date: 2014-12-06
   author: yaitaimo
   title: CAMPHOR-HOUSEの庭を美白した話
   url: http://blog.camph.net/event/camphor-house-garden/
+  tags:
+    - CAMPHOR-
+    - HOUSE
 
 - date: 2014-12-07
   author: tomonkey1
   title: 宅建挑戦記
   url: http://blog.camph.net/event/takken/
+  tags:
+    - 資格
 
 - date: 2014-12-08
   author: asadaman
   title: ロボットに負けたくない
   url: http://blog.camph.net/news/robo/
+  tags:
+    - ロボット
 
 - date: 2014-12-09
   author: akaaariiiiin
   title: Java の MigLayout
   url: http://tech.camph.net/java-miglayout/
+  tags:
+    - Java
 
 - date: 2014-12-10
   author: mikasakasa
   title: ノンデザイナーがそれっぽいWebデザインを作る話
   url: http://blog.camph.net/news/non-designer/
+  tags:
+    - デザイン
 
 - date: 2014-12-11
   author: ryota-ka
   title: iOS 初心者が Swift を使って3日でゲームを作った話
   url: http://tech.camph.net/an-ios-beginner-made-a-game-app-with-swift-in-3-days/
+  tags:
+    - iOS
+    - Swift
 
 - date: 2014-12-12
   author: siriusjack
   title: 食べられるドングリの見分け方(ドイツ編)
   url: http://blog.camph.net/news/nuts_eating_in_germany/
+  tags:
+    - 海外
+    - 生活
 
 - date: 2014-12-13
   author: yustoris
   title: ProjectileとHelm
   url: http://tech.camph.net/projectile-and-helm/
+  tags:
+    - Emacs
 
 - date: 2014-12-14
   author: kakenn
   title: 格安3Dプリンター「daVinci 2.0」を買ってみた。
   url: http://blog.camph.net/news/buy-davinci-2-0/
+  tags:
+    - 3Dプリンター
 
 - date: 2014-12-15
   author: ymyzk
   title: sphinxcontrib.httpdomain で RESTful API のドキュメントを作る
   url: https://blog.ymyzk.com/2014/12/restful-api-docs-with-sphinxcontrib-httpdomain/
+  tags:
+    - Python
 
 - date: 2014-12-16
   author: cotton_ori
   title: 知らない人たちとハッカソンに参加した話
   url: http://wataori.hatenadiary.jp/entry/2014/12/16/003000
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2014-12-17
   author: pepoipod
   title: UnityFree + LeapでUnityちゃんを投げを作る
   url: http://tech.camph.net/unityfree-leap/
+  tags:
+    - Unity
 
 - date: 2014-12-18
   author: ohmuraken
   title: 京都の学生が集まる町家ワークスペースCAMPHOR- HOUSEの紹介
   url: http://blog.camph.net/news/about-house/
+  tags:
+    - CAMPHOR-
+    - HOUSE
+    - コミュニティ
 
 - date: 2014-12-19
   author: kohey18
   title: Gyazoの使い方を熱く語るぞ!
   url: http://blog.camph.net/tool/useful_gyazo/
+  tags:
+    - Gyazo
 
 - date: 2014-12-20
   author: murata_atsumi
   title: ノンデザイナーでもできる！写真を使ったイケてるメイン画像の作り方
   url: http://tech.camph.net/mainimage-designing/
+  tags:
+    - デザイン
 
 - date: 2014-12-21
   author: morishin
   title: Pythonでローディングのぐるぐるを表示する
   url: http://tech.camph.net/python-guruguru/
+  tags:
+    - Python
 
 - date: 2014-12-22
   author: yaitaimo
   title: Alfred Workflowsの作り方 — Python Ver. –
   url: http://tech.camph.net/alfred-workflows-python/
+  tags:
+    - Python
 
 - date: 2014-12-23
   author: ryota-ka
   title: 初心者でもできる！関数型プログラミング入門
   url: http://tech.camph.net/functional-php/
+  tags:
+    - PHP
 
 - date: 2014-12-24
   author: ohmuraken
   title: サイボウズさんとSelenium勉強会を開催しました
   url: http://blog.camph.net/event/selenium-with-cybozu/
+  tags:
+    - CAMPHOR-
+    - イベント
 
 - date: 2014-12-25
   author: kohey18
   title: CAMPHOR- Advent Calendar 2014をまとめるよ！
   url: http://blog.camph.net/news/summary-camphor-advent-calendar-2014/
+  tags:
+    - CAMPHOR-
 
 - date: 2015-12-01
   author: ymyzk
   title: iOS・tvOS・watchOS デバイスのアーキテクチャについてのまとめ
   url: https://blog.ymyzk.com/2015/12/ios-tvos-watchos-architectures/
+  tags:
+    - iOS
 
 - date: 2015-12-02
   author: tanishiking
   title: readコマンドで 矢印キー や Ctrl+x などの入力を読み取る
   url: http://tanishiking24.hatenablog.com/entry/readascii
+  tags:
+    - CLI
 
 - date: 2015-12-03
   author: yaitaimo
   title: Python で RSA 公開鍵暗号をなぞってみる
   url: http://tech.camph.net/rsa-public-key-encryption/
+  tags:
+    - Python
+    - セキュリティ
 
 - date: 2015-12-04
   author: ryota-ka
   title: vty + StateT で画面のスクロールを実装する
   url: http://ryota-ka.hatenablog.com/entry/2015/12/04/000000
+  tags:
+    - CLI
+    - Haskell
 
 - date: 2015-12-05
   author: ohmuraken
   title: クラウドファンディングしてみました
   url: http://blog.camph.net/news/crowdfunding/
+  tags:
+    - クラウドファンディング
 
 - date: 2015-12-06
   author: kakenn
   title: みんなも作ろう自分専用Slack
   url: http://blog.shuto.info/2015/12/06/%E3%81%BF%E3%82%93%E3%81%AA%E3%82%82%E4%BD%9C%E3%82%8D%E3%81%86%E8%87%AA%E5%88%86%E5%B0%82%E7%94%A8slack/
+  tags:
+    - Slack
 
 - date: 2015-12-07
   author: ytmatsuge
   title: 初心者がエンジニアの卵になるための方法。
   url: http://tech.camph.net/beginner-to-engineer/
+  tags:
+    - キャリア
 
 - date: 2015-12-08
   author: pepoipod
   title: Unityで叩くTwitter, Facebook API
   url: http://pepoipod.hatenablog.jp/entry/attack-sns-api-in-unity
+  tags:
+    - Unity
 
 - date: 2015-12-09
   author: ymyzk
   title: iOS・Android のディープリンク技術のまとめ
   url: https://blog.ymyzk.com/2015/12/ios-android-deep-linking/
+  tags:
+    - Android
+    - iOS
 
 - date: 2015-12-10
   author: watambo
   title: 会社をつくるときにやっておいてよかったこと、やっておけばよかったこと
   url: http://watambo.blogspot.com/2015/12/blog-post.html
+  tags:
+    - キャリア
+    - 企業
 
 - date: 2015-12-11
   author: murata_atsumi
   title: 【関西版】優秀な学生エンジニアが集う場所まとめ
   url: http://anmitsu-web.com/blog/47/
+  tags:
+    - コミュニティ
 
 - date: 2015-12-12
   author: andoshin11
   title: 初心者がGASでSlack Botをつくってみた
   url: http://tech.camph.net/slack-bot-with-gas/
+  tags:
+    - Google Apps Script
 
 - date: 2015-12-13
   author: kakizoe
   title: IT業界の運動習慣ェ・・・
   url: http://d.hatena.ne.jp/Y_Kakizoe/20151212/1449927976
+  tags:
+    - 健康
 
 - date: 2015-12-14
   author: lotz
   title: Servant でアクセス制御のWeb DSLを作ってみる
   url: https://qiita.com/lotz/items/391f48c363a3f478794c
+  tags:
+    - Haskell
 
 - date: 2015-12-15
   author: mikasakasa
   title: PhotoshopからSketchに乗り換えて幸せになろう
   url: http://mikasakasa.hatenablog.com/entry/switch_from_photoshop_to_sketch
+  tags:
+    - デザイン
 
 - date: 2015-12-16
   author: asadaman
   title: OpenCV-Python を使って囲碁の勝敗判定させてみよう
   url: http://asdm.hatenablog.com/entry/go-win-failure-determination
+  tags:
+    - Python
+    - コンピュータービジョン
 
 - date: 2015-12-17
   author: shotarok
   title: 超絶技巧プログラミングやってみた
   url: http://blog.shotarok.com/post/2015-12-17_hello-quine-world/
+  tags:
+    - プログラミング
 
 - date: 2015-12-18
   author: yu-i9
   title: 型クラスを含んだ型推論を概観する 〜Typing Haskell in Haskell より〜
   url: http://yu-i9.hatenablog.com/entry/thih
+  tags:
+    - Haskell
 
 - date: 2015-12-19
   author: siriusjack
   title: Hubot に照明を on/off させる
   url: http://tech.camph.net/hubot-hue-integration/
+  tags:
+    - Hubot
+    - スマートホーム
 
 - date: 2015-12-20
   author: morishin
   title: Bitcoinのリアルタイムチャート画像を返すAPIを作ってSlackでhubotに吐かせる
   url: http://morishin.hatenablog.com/entry/bitcoin-chart-bot
+  tags:
+    - Bitcoin
+    - Python
 
 - date: 2015-12-21
   author: keishake
   title: 音楽の初心者でもゲームのBGMをカンタンに作れちゃうiPhoneアプリ 7選！
   url: http://shakezoomer.com/?p=947
+  tags:
+    - 音楽
 
 - date: 2015-12-22
   author: kohey18
   title: 実例で学ぶDockerハンズオン
   url: https://qiita.com/kohey18/items/dffe9b11d330576ab852
+  tags:
+    - Docker
 
 - date: 2015-12-23
   author: mikasakasa
   title: はじめてのAndroidアプリのデザインを公開してみた
   url: http://mikasakasa.hatenablog.com/entry/materialup
+  tags:
+    - Android
 
 - date: 2015-12-24
   author: kasajei
   title: 健康的なエンジニアになるためにすべき21個のこと
   url: http://blog.kasajei.com/entry/high_performance_engineer
+  tags:
+    - 生活
+    - 健康
 
 - date: 2015-12-25
   author: tanishiking
   title: Scala でジェネレータを作ったり遅延評価してみる
   url: http://tanishiking24.hatenablog.com/entry/scala-generator
+  tags:
+    - Scala
 
 - date: 2015-12-26
   author: ryota-ka
   title: パターンマッチなんか書いたら負け (モナドがあるから)
   url: http://ryota-ka.hatenablog.com/entry/2015/12/26/000000
+  tags:
+    - Haskell
 
 - date: 2015-12-27
   author: ymyzk
   title: "PyLadies Kyoto Meetup #1 の実施と多様性のあるコミュニティ作りについて"
   url: http://blog.camph.net/event/pyladies-kyoto-and-diversity/
+  tags:
+    - Python
+    - イベント
+    - コミュニティ
 
 - date: 2015-12-28
   author: kakenn
   title: ブラウザからPepper(naoqi)をいじる。
   url: http://blog.shuto.info/2015/12/28/browser-pepper/
+  tags:
+    - ロボット
 
 - date: 2015-12-29
   author: cotton_ori
   title: クローラー構築の際に気をつけたいこと
   url: https://qiita.com/cotton_ori/items/81d26dfccbfc703cbd79
+  tags:
+    - クローラー
 
 - date: 2015-12-30
   author: ryota-ka
   title: Perl 6 でジェネレータを作ったり、遅延評価してみる
   url: http://ryota-ka.hatenablog.com/entry/2015/12/30/000000
+  tags:
+    - Perl
 
 - date: 2015-12-31
   author: yaitaimo
   title: CAMPHOR- 2015 の総括
   url: http://blog.camph.net/news/camphor-2015/
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2016-12-01
   author: ymyzk
   title: WSGI ミドルウェアとして使えるラインプロファイラを作った話
   url: https://blog.ymyzk.com/2016/12/line-profiler-as-a-wsgi-middleware/
+  tags:
+    - Python
 
 - date: 2016-12-02
   author: ytmatsuge
   title: 非エンジニアに知ってほしい「エンジニアを仲間にするための第一歩」
   url: http://tech.camph.net/first-step-for-recruiting-engineers/
+  tags:
+    - ビジネス
 
 - date: 2016-12-03
   author: yaitaimo
   title: 某国の大統領を勝たせるために僕たちが出来ること
   url: http://tech.camph.net/e-voting-attack-possibility/
+  tags:
+    - 電子投票
 
 - date: 2016-12-04
   author: KojiAomatsu
   title: パーティーを企画したら大失敗！どうして？
   url: http://it1.jp/?p=109
+  tags:
+    - イベント
 
 - date: 2016-12-05
   author: ohmuraken
   title: サッカーのデータを分析しよう
   url: http://ohmemo.hatenablog.com/entry/soccer-analytics
+  tags:
+    - データ分析
 
 - date: 2016-12-06
   author: tomoyat1
   title: ZFS SnapshotをGCPのColdline Storageに上げてみた
   url: https://blog.tomoyat1.com/2016/12/05/saving-zfs-snapshots-to-gcp-coldline/
+  tags:
+    - GCP
+    - ZFS
 
 - date: 2016-12-07
   author: tanishiking
   title: WartRemover で Scala の静的解析
   url: http://tanishiking24.hatenablog.com/entry/intro-wartremover
+  tags:
+    - Scala
 
 - date: 2016-12-08
   author: ryota-ka
   title: Vim script でジェネレータを作ったり、遅延評価してみる
   url: http://ryota-ka.hatenablog.com/entry/2016/12/08/000000
+  tags:
+    - Vim
 
 - date: 2016-12-09
   author: shotarok
   title: GASでDMM英会話の予約メールから自動的にカレンダーに登録
   url: http://blog.shotarok.com/post/2016-12-09-auto_creation_of_eikaiwa_events/
+  tags:
+    - Google Apps Script
+    - 自動化
 
 - date: 2016-12-10
   author: kasajei
   title: 買って大満足！これがマインドフルネス三種の神器だ！
   url: http://blog.kasajei.com/entry/mindfulness_gadget
+  tags:
+    - 健康
 
 - date: 2016-12-11
   author: ishiy1993
   title: HaskellのWeb系ライブラリの紹介
   url: https://www.ishiy.xyz/posts/2016-12-11-haskell-web.html
+  tags:
+    - Haskell
+    - Web
 
 - date: 2016-12-12
   author: shiba6v
   title: iTweenはValueToさえ使えればOK！【Unityでのアニメーション】
   url: http://tech.camph.net/itween-valueto/
+  tags:
+    - Unity
 
 - date: 2016-12-13
   author: andoshin11
   title: 【第一回】超簡単！RubyでSlack Botを作る方法
   url: http://studio-andy.hatenablog.com/entry/ruby-bot
+  tags:
+    - Ruby
+    - Slack
 
 - date: 2016-12-14
   author: siriusjack
   title: 音声認識でHOUSEの照明を点けたり消したりしてみた
   url: http://tech.camph.net/controll_lights_wstt/
+  tags:
+    - スマートホーム
 
 - date: 2016-12-15
   author: KojiAomatsu
   title: プログラミング初心者がSwiftに出会ってからアプリをリリースするまで
   url: http://it1.jp/?p=229
+  tags:
+    - iOS
+    - Swift
 
 - date: 2016-12-16
   author: yu-i9
   title: 「『圏論勉強会』を見る会」を開催しています！
   url: http://blog.camph.net/event/category-theory/
+  tags:
+    - イベント
 
 - date: 2016-12-17
   author: andoshin11
   title: 【第二回】Rubyで作ったSlack BotとSpotify APIで遊んでみた
   url: http://studio-andy.hatenablog.com/entry/bot-spotify
+  tags:
+    - Ruby
+    - Slack
+    - Spotify
 
 - date: 2016-12-18
   author: murata_atsumi
   title: ノンデザイナーでもできる！イケてるスライドの作り方【テンプレ付き】
   url: http://anmitsu-web.com/blog/178/
+  tags:
+    - デザイン
 
 - date: 2016-12-19
   author: morishin
   title: 遺伝的アルゴリズムでやっていく Mario AI Competition 2009
   url: http://morishin.hatenablog.com/entry/marioai-2009
+  tags:
+    - ゲーム
+    - 機械学習
 
 - date: 2016-12-20
   author: shiba6v
   title: LINE BOT CARAVANを開催しました！
   url: http://blog.camph.net/event/line-bot-caravan/
+  tags:
+    - LINE
+    - イベント
 
 - date: 2016-12-21
   author: ytmatsuge
   title: 初心者がサクッとデザインしたい時に使えたサービス9選
   url: http://tech.camph.net/design-tools-for-beginners/
+  tags:
+    - デザイン
 
 - date: 2016-12-22
   author: KojiAomatsu
   title: 「手作りRPG」の開発方法とゲームバランスと収益の話
   url: http://it1.jp/?p=265
+  tags:
+    - ゲーム
 
 - date: 2016-12-23
   author: tanishiking
   title: JS知識ほぼ0からTypeScript入門してる
   url: http://tanishiking24.hatenablog.com/entry/2016/12/23/000000
+  tags:
+    - TypeScript
 
 - date: 2016-12-24
   author: ymyzk
   title: Android 勉強会の紹介と勉強会開催の知見
   url: http://blog.camph.net/event/android-app/
+  tags:
+    - イベント
 
 - date: 2016-12-25
   author: ytmatsuge
   title: CAMPHOR- 2016 の総括と「幸せなコミュニティーづくり」について
   url: http://blog.camph.net/news/camphor-2016/
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2017-12-01
   author: tomokortn
   title: ノンデザイナーでもできる！イケてるロゴの作り方
   url: http://tomokortn.hatenablog.com/entry/advent2017
+  tags:
+    - デザイン
+    - ロゴ
 
 - date: 2017-12-02
   author: genya0407
   title: 熊野寮でコードを書いて感謝された話
   url: http://dawn.hateblo.jp/entry/write-code-kumano-dormitory
+  tags:
+    - サービス
+    - 自動化
 
 - date: 2017-12-03
   author: KojiAomatsu
   title: 最高の新規サービスの作り方
   url: https://it1.jp/?p=790
+  tags:
+    - サービス
 
 - date: 2017-12-04
   author: ymyzk
   title: 「ネットワークの調子が悪い」ときの原因の見つけ方
   url: https://blog.ymyzk.com/2017/12/how-to-find-network-connectivity-problems/
+  tags:
+    - ネットワーク
 
 - date: 2017-12-05
   author: ishiy1993
   title: Formuraではじめる数値計算
   url: https://www.ishiy.xyz/posts/2017-12-04-physics-formura.html
+  tags:
+    - Formura
+    - 数値計算
 
 - date: 2017-12-06
   author: marty1martie
   title: 時間を有効活用したいあなたへ贈る、ビジネスメールの書き方
   url: http://skstmrty.hatenablog.com/entry/businessemail
+  tags:
+    - ビジネス
 
 - date: 2017-12-07
   author: genya0407
   title: 「熊野寮生だけど質問ある？」
   url: http://dawn.hateblo.jp/entry/qfkd
+  tags:
+    - サービス
 
 - date: 2017-12-08
   author: ymyzk
   title: "論文執筆を支える継続的インテグレーション: Git から Amazon S3 まで"
   url: https://blog.ymyzk.com/2017/12/ci-for-writing-papers/
+  tags:
+    - CI
+    - 研究
 
 - date: 2017-12-09
   author: ohmuraken
   title: はてなブックマークの人気エントリーの情報を抽出する
   url: http://ohmemo.hatenablog.com/entry/get_hatenab_info
+  tags:
+    - Python
+    - スクレイピング
 
 - date: 2017-12-10
   author: kasajei
   title: 面白い本の選び方 〜ハズレ本は読み捨て、タイトルに騙されずに翻訳本を買え！
   url: http://blog.kasajei.com/entry/2017/12/10/book_selection
+  tags:
+    - 読書
 
 - date: 2017-12-11
   author: yu-i9
   title: 漸進的型付けの未来を考える
   url: http://yu-i9.hatenablog.com/entry/future-of-gradual-typing
+  tags:
+    - プログラミング言語
 
 - date: 2017-12-12
   author: tomoyat1
   title: ErgoDoxにVim風の操作を覚えさせてみた
   url:  https://blog.tomoyat1.com/2017/12/12/vim-like-keybinds-for-ergodox/
+  tags:
+    - キーボード
 
 - date: 2017-12-13
   author: shiba6v
   title: Mercari BOLD Internshipでアメリカに行ってきた話
   url: http://shiba6v.hatenablog.com/entry/mercari-bold
+  tags:
+    - インターン
+    - 海外
 
 - date: 2017-12-14
   author: marty1martie
   title: 「React & React Native入門者向けハンズオン」を開催しました！
   url: https://blog.camph.net/event/react-hands-on/
+  tags:
+    - React
+    - イベント
 
 - date: 2017-12-15
   author: Prog24
   title: イベント会場(海上)でネットワーク構築してきた
   url: https://blog.prog24.com/2017/12/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E6%B5%B7%E4%B8%8A%E3%81%A7%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A7%8B%E7%AF%89%E3%81%97%E3%81%A6%E3%81%8D%E3%81%9F/
+  tags:
+    - ネットワーク
 
 - date: 2017-12-16
   author: ytmatsuge
   title: 初心者がGASで同窓会の参加受付から名簿更新までを自動化した話
   url: http://ytmatsuge.hatenablog.com/entry/auto_system_for_application
+  tags:
+    - Google Apps Script
+    - 自動化
 
 - date: 2017-12-17
   author: tomoyat1
   title: CAMPHOR-に学ぶコミュニティ運営のノウハウ
   url: https://blog.camph.net/useful/runnning-a-community-camphor-style/
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2017-12-18
   author: tomokortn
   title: 「声」という新しいUI--Alexaボイスデザインガイド いろはの「い」
   url: http://tomokortn.hatenablog.com/entry/advent2017-2
+  tags:
+    - スマートスピーカー
+    - デザイン
 
 - date: 2017-12-19
   author: morishin
   title: iOS 自分用ライブラリ紹介×6
   url: http://morishin.hatenablog.com/entry/ios-my-libraries
+  tags:
+    - iOS
 
 - date: 2017-12-20
   author: ymyzk
   title: パッケージマネージャがパッケージをインストールする仕組み
   url: https://blog.ymyzk.com/2017/12/how-packages-are-installed/
+  tags:
+    - パッケージマネージャ
 
 - date: 2017-12-21
   author: ryota-ka
   title: Type-level TypeScript
   url: http://ryota-ka.hatenablog.com/entry/2017/12/21/000000
+  tags:
+    - TypeScript
 
 - date: 2017-12-22
   author: tanishiking
   title: JavaScript とクロスブラウザでの IME event handling (2017年)
   url: http://tanishiking24.hatenablog.com/entry/ime-event-handling-javascript
+  tags:
+    - JavaScript
+    - ブラウザ
 
 - date: 2017-12-23
   author: andoshin11
   title: Storybook for Vueでエンジニアとデザイナーの協業を加速させる
   url: http://studio-andy.hatenablog.com/entry/storybook-for-vue
+  tags:
+    - Vue.js
 
 - date: 2017-12-24
   author: ohmuraken
   title: はてなブックマークのコメントにおける流行語の調査
   url: http://ohmemo.hatenablog.com/entry/hatenab_comment_buzzword
+  tags:
+    - Python
+    - 自然言語処理
 
 - date: 2017-12-25
   author: shiba6v
   title: CAMPHOR-が2017年に目指したこと
   url: https://blog.camph.net/news/2017-advent-final/
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2018-12-01
   author: null
@@ -542,281 +798,431 @@
   author: genya0407
   title: 高校の文化祭の食販の注文フローを電子化した話
   url: http://dawn.hateblo.jp/entry/kebab-system
+  tags:
+    - サービス
 
 - date: 2018-12-04
   author: yu-i9
   title: 'Python処理系入門 〜"1 + 1" で学ぶ処理系解読の基礎〜'
   url: http://yu-i9.hatenablog.com/entry/cpython
+  tags:
+    - Python
 
 - date: 2018-12-05
   author: ほげもち
   title:  螺旋本輪読会に参加した話
   url: https://zunda3rd.hatenablog.com/entry/spiral_book
+  tags:
+    - アルゴリズム
+    - イベント
 
 - date: 2018-12-06
   author: ishiy1993
   title: Stack の小ネタ
   url: https://www.ishiy.xyz/posts/2018-12-06-haskell-stack.html
+  tags:
+    - Slack
 
 - date: 2018-12-07
   author: shiba6v
   title: NumpyやPyTorchで使える超便利ツールを作った
   url: http://shiba6v.hatenablog.com/entry/shape_commentator_release
+  tags:
+    - Python
 
 - date: 2018-12-08
   author: tori
   title: とあるサークルのWEB大臣としてTweetを自動でブログに投稿するプログラムを作った話。
   url: http://toripedia.net/twi2wp
+  tags:
+    - Twitter
 
 - date: 2018-12-09
   author: KojiAomatsu
   title: クラウドファンディングでWebメディアを立ち上げるために何をして何を考えていたか
   url: https://it1.jp/?p=1118
+  tags:
+    - クラウドファンディング
+    - Web
 
 - date: 2018-12-10
   author: aratasato
   title: 「Webサービスを作りたい！」と思ってから実際に作るまで5年かかった
   url: https://ataran.hatenablog.com/entry/five_years_to_web_app
+  tags:
+    - コミュニティ
+    - サービス
 
 - date: 2018-12-11
   author: andoshin11
   title: TypeScriptでNuxtアプリケーションを作成する際の覚書
   url: https://blog.andoshin11.me/posts/nuxt-with-typescript
+  tags:
+    - TypeScript
+    - Vue.js
 
 - date: 2018-12-12
   author: kmconner
   title: Markdown のパーサーを書いている話
   url: https://blog.kmconner.net/?p=24
+  tags:
+    - Markdown
 
 - date: 2018-12-13
   author: genya0407
   title: ファストフード検索というサービスを作った
   url: http://dawn.hateblo.jp/entry/fastfood
+  tags:
+    - サービス
 
 - date: 2018-12-14
   author: Rtm6Lgo
   title: とある研究室の運営のエモいお話
   url: https://rtm6.hatenablog.jp/entry/2018/12/14/113010
+  tags:
+    - 研究
 
 - date: 2018-12-15
   author: ryota-ka
   title: Nix Expression Language で遅延リストを作ってみる
   url: https://ryota-ka.hatenablog.com/entry/2018/12/15/000000
+  tags:
+    - Nix
 
 - date: 2018-12-16
   author: tomokortn
   title: Keynoteでつくる！いい感じのconnpassアイキャッチ画像
   url: http://tomokortn.hatenablog.com/entry/advent2018
+  tags:
+    - Keynote
+    - デザイン
 
 - date: 2018-12-17
   author: morishin
   title: Stripe と Firebase で集金ページを作る
   url: https://morishin.hatenablog.com/entry/stripe-firebase-payment
+  tags:
+    - Firebase
+    - Stripe
+    - サービス
 
 - date: 2018-12-18
   author: p1ass
   title: WebサービスをAmazon Rekognition x Serverlessで開発してみた
   url: https://qiita.com/plus_kyoto/items/fa0215cee44251bf2e50
+  tags:
+    - AWS
+    - Web
+    - サービス
 
 - date: 2018-12-19
   author: lotz
   title: '"アルゴリズムこうしん"のアルゴリズムをHaskellで実装する'
   url: https://qiita.com/lotz/items/7d441569d3d3e89cb12a
+  tags:
+    - Haskell
 
 - date: 2018-12-20
   author: ymyzk
   title: Python ウェブアプリのためのプロファイラ wsgi_lineprof の仕組み
   url: https://blog.ymyzk.com/2018/12/how-wsgi-lineprof-works/
+  tags:
+    - Python
 
 - date: 2018-12-21
   author: marty1martie
   title: 業績なしでも大丈夫？大学院生が学振に採用される方法
   url: http://skstmrty.hatenablog.com/entry/gakushin-saiyounaitei
+  tags:
+    - 研究
 
 - date: 2018-12-22
   author: どら
   title: Go+GAEで「ちょっと不便」を解決するLINEボットをつくった
   url: http://dorapocket.starfree.jp/2018/12/camphor-advent-1222/
+  tags:
+    - Go
+    - Google App Engine
+    - LINE
+    - 自動化
 
 - date: 2018-12-23
   author: asamas
   title: Cloud Pub/Subを使ってgmailの通知を受け取るlinebot
   url: https://qiita.com/asamas/items/c0cc2c44a80a52c788be
+  tags:
+    - Google App Engine
+    - LINE
+    - 自動化
 
 - date: 2018-12-24
   author: watambo
   title: 最＆高なエンジニアコミュニティ「CAMPHOR-」ができるまで
   url: https://watambo.blogspot.com/2018/12/camphor.html
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2018-12-25
   author: yu-i9
   title: CAMPHOR- 2018年の総括
   url: https://blog.camph.net/news/camphor-2018-summary/
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2019-12-01
   author: aratasato
   title: 任意の人は質問箱を作るべき
   url: https://ataran.hatenablog.com/entry/geing
+  tags:
+    - Web
+    - サービス
 
 - date: 2019-12-02
   author: honai
   title: サイトの読み込みが終わらないのでアニメーションを調べてみた
   url:  https://honai.me/blog/post/material-ui-progress-animation
+  tags:
+    - CSS
 
 - date: 2019-12-03
   author: marty1martie
   title: 研究が辛いと感じないための心の持ち方
   url: http://skstmrty.hatenablog.com/entry/management-research-life
+  tags:
+    - 研究
 
 - date: 2019-12-04
   author: aratasato
   title: teamLabのエンジニアとトーク&ハンズオンイベントを開催しました！
   url: https://blog.camph.net/news/teamlab-event/
+  tags:
+    - イベント
 
 - date: 2019-12-05
   author: DragonTaro1031
   title:  WordPressの表示速度が遅かったのでパフォーマンス改善を本気でやってみた
   url: https://dragon-taro.com/blog/improve-performance
+  tags:
+    - WordPress
 
 - date: 2019-12-06
   author: watambo
   title: 中目黒のコミュニティスペースCAMPHOR- BASEにみんなおいでヨ！
   url: https://note.com/viking/n/n8562bca82f95
+  tags:
+    - コミュニティ
 
 - date: 2019-12-07
   author: asamas
   title: スプラトゥーン2の戦績データを取得する+おまけ
   url: https://qiita.com/asamas/items/ec8c9adab8d49b0aa1ec
+  tags:
+    - ゲーム
 
 - date: 2019-12-08
   author: morishin
   title: "#zoom-nomikai"
   url: https://morishin.hatenablog.com/entry/zoom-nomikai
+  tags:
+    - コミュニティ
+    - 生活
 
 - date: 2019-12-09
   author: woody
   title: インサートモードから出ずにVimを使いこなす
   url: https://woodyzootopia.github.io/2019/11/%E3%82%A4%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89%E3%81%8B%E3%82%89%E5%87%BA%E3%81%9A%E3%81%ABvim%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99/
+  tags:
+    - エディタ
 
 - date: 2019-12-10
   author: yosyuaomenww
   title: これからプログラミングを始める君へ
   url: https://denden-seven.hatenablog.com/entry/2019/12/09/213915
+  tags:
+    - キャリア
 
 - date: 2019-12-11
   author: p1ass
   title: Kubernetesのイメージタグの更新を楽にするCLIツールをGoで作った
   url: https://blog.p1ass.com/posts/mikku/
+  tags:
+    - Go
+    - Kubernetes
 
 - date: 2019-12-12
   author: tomokortn
   title: ノンデザイナー向け！いい感じにWebやAppの配色を決める3つの方法
   url: https://note.com/tomokortn/n/n0d3d9da16907
+  tags:
+    - デザイン
+    - 配色
 
 - date: 2019-12-13
   author: どら
   title: Gmail に届いた新幹線や映画の予定を自動登録するようにした話
   url: https://blog.minoru.dev/2019/2019-camphor-advent/
+  tags:
+    - Google Apps Script
+    - 自動化
 
 - date: 2019-12-14
   author: satomi
   title: 看護学生がCAMPHOR-を訪れてUnityの勉強を始めるまで
   url: https://note.com/___msato/n/n9f7de93128f7
+  tags:
+    - CAMPHOR-
+    - Unity
 
 - date: 2019-12-15
   author: andoshin11
   title: 全TSユーザーのためのOpen API Codegen、「Squelette」を作っている話
   url: https://blog.andoshin11.me/posts/ts-open-api-codegen-squelette
+  tags:
+    - OpenAPI
+    - TypeScript
 
 - date: 2019-12-16
   author: kmconner
   title: 家の電気使用量を可視化する
   url: https://blog.kmconner.net/?p=140
+  tags:
+    - Grafana
+    - スマートホーム
 
 - date: 2019-12-17
   author: ymyzk
   title: GitHub Actions を活用した Python プロジェクトの CI
   url: https://blog.ymyzk.com/2019/12/github-actions-for-python-projects/
+  tags:
+    - CI
+    - Python
 
 - date: 2019-12-18
   author: yckao
   title: 定規なしで kubernetes manifestを書こう
   url: https://hackmd.io/@yckao/rJvqB0SRH
+  tags:
+    - Kubernetes
 
 - date: 2019-12-19
   author: genya0407
   title: 駆け出し建築家にHTMLの書き方を教えた話
   url: https://dawn.hateblo.jp/entry/teach-how-to-write-html
+  tags:
+    - Web
+    - キャリア
 
 - date: 2019-12-20
   author: aviatesk
   title: Julia のメタプログラミング 1 -- Parse time hack
   url: https://qiita.com/aviatesk/items/91180acbe4ce64e32261
+  tags:
+    - Julia
 
 - date: 2019-12-21
   author: watambo
   title: 行政をハックし、行政データをオープンにしてみようとした結果 - 2019年の取組みと今後の展望
   url: https://blog.watambo.com/2019/12/opendatahack2019.html
+  tags:
+    - オープンデータ
+    - 行政
 
 - date: 2019-12-22
   author: kazbno
   title: Verilog でミニプロセッサを実装してみた
   url: http://kaz7890.hatenablog.com/entry/simple-riscv
+  tags:
+    - Verilog
+    - ハードウェア
 
 - date: 2019-12-23
   author: 5ebec
   title: 誰得なAtomのSyntax themeを作った
   url: https://blog.5ebec.dev/posts/light-owl-syntax-theme-for-atom/
+  tags:
+    - Atom
+    - エディタ
 
 - date: 2019-12-24
   author: marty1martie
   title: Display 3D Reaction Diffusion with Marching Cubes
   url: https://skstmrty.hatenablog.com/entry/3DReactionDiffusion-MarchingCubes
+  tags:
+    - C++
+    - 研究
 
 - date: 2019-12-25
   author: shiba6v
   title: 2019年のCAMPHOR- 総括 ～コミュニティが生まれ変わるために～
   url: https://blog.camph.net/news/2019-advent-final
+  tags:
+    - CAMPHOR-
+    - コミュニティ
 
 - date: 2020-12-01
   author: asamas
   title: 低温調理のすすめ
   url: https://asamas.hatenablog.com/entry/sous-vide
+  tags:
+    - 生活
+    - 料理
 
 - date: 2020-12-02
   author: shiba6v
   title: 論文のPDFから図を自動で抽出する
   url: https://shiba6v.hatenablog.com/entry/extract_image_from_pdf
+  tags:
+    - Python
+    - 研究
 
 - date: 2020-12-03
   author: bono_social
   title: Unityによるアイワナ風ゲーム制作
   url: https://gotanto.hatenablog.com/entry/Iwanna
+  tags:
+    - Unity
+    - ゲーム
 
 - date: 2020-12-04
   author: dora1998
   title: 大学に入ってプログラミングを離れた僕が、もう一度熱中するまで
   url: https://note.com/dora1998/n/nbc4b861c704a
+  tags:
+    - CAMPHOR-
+    - キャリア
 
 - date: 2020-12-05
   author: kmconner
   title: タスクバーからツイートしたい！
   url: https://blog.kmconner.net/archives/212
+  tags:
+    - Twitter
+    - Windows
 
 - date: 2020-12-06
   author: honai
   title: Cometで機械学習のログをクラウドに保存する
   url: https://blog.honai.me/post/comet-ml-logging
+  tags:
+    - 機械学習
 
 - date: 2020-12-07
   author: yosyuaomenww
   title: signateの海岸コンペの参加記録
   url: https://denden-seven.hatenablog.com/entry/coastline
+  tags:
+    - 機械学習
 
 - date: 2020-12-08
   author: genya0407
   title: Rubyで設定を書けるLinux用キーマッパー 「rumap」をRustで作った
   url: https://dawn.hateblo.jp/entry/rumap
+  tags:
+    - Linux
+    - Ruby
+    - Rust
 
 - date: 2020-12-09
   author: null
@@ -827,6 +1233,10 @@
   author: atrn0
   title: 学生起業して思ったこと
   url: https://atrn0.github.io/p/starting-business-as-a-student/
+  tags:
+    - キャリア
+    - サービス
+    - 起業
 
 - date: 2020-12-11
   author: null
@@ -837,26 +1247,40 @@
   author: pibvt
   title: L3 技術で研究活動を快適にした話
   url: https://pibvt.hateblo.jp/entry/camphor-adv-2020
+  tags:
+    - ネットワーク
+    - 研究
 
 - date: 2020-12-13
   author: panorama
   title: WebテストでActiveRecordを使いたい！
   url: https://pnrm-mts.hatenablog.com/entry/memo_record_for_web_test
+  tags:
+    - Ruby
+    - Web
 
 - date: 2020-12-14
   author: 5ebec
   title: 「第7回 超もくもく会」を開催しました！
   url: https://blog.camph.net/event/cho-mokumokukai-7/
+  tags:
+    - CAMPHOR-
+    - イベント
 
 - date: 2020-12-15
   author: satomi
   title: 家での生活を豊かにするアイテム紹介
   url: https://note.com/___msato/n/n4b150aa590e2
+  tags:
+    - スマートホーム
+    - 生活
 
 - date: 2020-12-16
   author: honai
   title: MakeをPythonのタスクランナーとして使う
   url: https://blog.honai.me/post/makefile-python-task-runner
+  tags:
+    - Python
 
 - date: 2020-12-17
   author: sanpo_shiho
