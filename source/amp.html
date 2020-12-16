@@ -48,6 +48,14 @@
         min-width: 3rem;
         font-weight: 700;
       }
+      .badge {
+        font-weight: normal;
+        font-size: 90%;
+      }
+      .badge-secondary {
+        background-color: #6c757d;
+        color: #fff;
+      }
       .badge-hatena {
         background-color: #00a4de;
         color: #fff;
@@ -96,6 +104,13 @@
               {% if entry.url %}
                 <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
                 <span>
+                  {% if entry.tags %}
+                    {% for tag in entry.tags %}
+                      <span class="badge badge-pill badge-secondary">
+                        {{ tag }}
+                      </span>
+                    {% endfor %}
+                  {% endif %}
                   <a class="badge badge-pill badge-hatena hateb-link" data-url="{{ entry.url }}" href="https://b.hatena.ne.jp/entry/{{ entry.url }}">B!</a>
                 </span>
               {% else %}
