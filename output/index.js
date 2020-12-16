@@ -1,6 +1,5 @@
 $(document).ready(function () {
   "use strict";
-  var $table = $("table.schedule");
 
   function getUrlWithoutProtocol(url) {
     return url.replace(/^https?:\/\//, "");
