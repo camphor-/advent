@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import datetime
-from typing import Optional
+from typing import List, Optional
 
 
 @dataclass
@@ -16,3 +16,4 @@ class Entry:
     url: Optional[str]
     author: Optional[str]
     author_url: Optional[str] = None
+    tags: Optional[List[str]] = None
