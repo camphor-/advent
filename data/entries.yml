@@ -1286,6 +1286,9 @@
   author: sanpo_shiho
   title: CAMPHOR- VPSのコンテナロギングを支える技術
   url: https://sanposhiho.com/posts/camphor-grafana-loki/
+  tags:
+    - Docker
+    - Grafana
 
 - date: 2020-12-18
   author: null
