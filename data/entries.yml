@@ -1299,6 +1299,9 @@
   author: ymyzk
   title: CAMPHOR- Advent Calendar 7年間の振り返り
   url: https://blog.ymyzk.com/2020/12/camphor-advent-calendar-recap/
+  tags:
+    - CAMPHOR-
+    - Python
 
 - date: 2020-12-20
   author: 5ebec
