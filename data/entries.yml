@@ -1305,8 +1305,10 @@
 
 - date: 2020-12-20
   author: 5ebec
-  title: null
-  url: null
+  title: ITエンジニア志望の学生が聴くべきPodcast
+  url: https://blog.5ebec.dev/posts/podcasts/
+  tags:
+    - 生活
 
 - date: 2020-12-21
   author: watambo
