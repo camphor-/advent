@@ -1291,9 +1291,12 @@
     - Grafana
 
 - date: 2020-12-18
-  author: null
-  title: null
-  url: null
+  author: sanpo_shiho
+  title: Phoenixにおける現代的なアーキテクチャを考える
+  url: https://sanposhiho.com/posts/phoenix-architecture-for-me/
+  tags:
+    - Web
+    - Elixir
 
 - date: 2020-12-19
   author: ymyzk
