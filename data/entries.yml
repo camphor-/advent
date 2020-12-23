@@ -1338,8 +1338,10 @@
 
 - date: 2020-12-24
   author: sanpo_shiho
-  title: null
-  url: null
+  title: 2020年やったことを振り返る
+  url: https://sanposhiho.com/posts/looking-back-to-2020/
+  tags:
+    - 振り返り
 
 - date: 2020-12-25
   author: p1ass
