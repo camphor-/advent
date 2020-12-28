@@ -6,5 +6,5 @@ services:
     image: camphor/advent
     network_mode: none
     volumes:
-      - ./data:/app/data:ro
-      - ./output:/app/output
+      - $HOME/advent/data:/app/data:ro
+      - $HOME/advent/output:/app/output
