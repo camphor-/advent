@@ -5,5 +5,5 @@ services:
     image: registry.camph.net/advent:latest
     network_mode: none
     volumes:
-      - $HOME/advent/data:/app/data:ro
-      - $HOME/advent/output:/app/output
+      - /home/deploy/advent/data:/app/data:ro
+      - /home/deploy/advent/output:/app/output
