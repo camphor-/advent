@@ -56,7 +56,7 @@ jobs:
       - name: Deploy advent
         run: |
           docker-compose --context konoe -f docker-compose.prod.yml pull
-          docker-compose --context konoe -f docker-compose.prod.yml up --force-recreate -d
+          docker-compose --context konoe -f docker-compose.prod.yml up --force-recreate
       - name: Notify to Slack
         uses: craftech-io/slack-action@v1
         with:
