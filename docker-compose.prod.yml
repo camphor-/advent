@@ -2,7 +2,6 @@ version: "3.3"
 
 services:
   advent:
-    build: .
     image: registry.camph.net/advent:latest
     network_mode: none
     volumes:
