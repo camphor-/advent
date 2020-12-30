@@ -2,8 +2,9 @@ version: "3.3"
 
 services:
   advent:
+    build: .
     image: registry.camph.net/advent:latest
     network_mode: none
     volumes:
-      - /home/deploy/advent/data:/app/data:ro
-      - /home/deploy/advent/output:/app/output
+      - ./data:/app/data:ro
+      - ./output:/app/output
