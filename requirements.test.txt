@@ -18,7 +18,7 @@ pycodestyle==2.6.0        # via flake8
 pyflakes==2.2.0           # via flake8
 pyparsing==2.4.7          # via packaging
 pytest-freezegun==0.4.2   # via -r requirements.test.in
-pytest-mock==3.5.0        # via -r requirements.test.in
+pytest-mock==3.5.1        # via -r requirements.test.in
 pytest-randomly==3.5.0    # via -r requirements.test.in
 pytest==6.2.1             # via -r requirements.test.in, pytest-freezegun, pytest-mock, pytest-randomly
 python-dateutil==2.8.1    # via freezegun
