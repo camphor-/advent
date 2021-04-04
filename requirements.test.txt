@@ -6,6 +6,8 @@
 #
 attrs==20.3.0
     # via pytest
+backports.entry-points-selectable==1.0.3
+    # via pytest-randomly
 flake8==3.9.0
     # via -r requirements.test.in
 freezegun==1.0.0
@@ -34,7 +36,7 @@ pytest-freezegun==0.4.2
     # via -r requirements.test.in
 pytest-mock==3.5.1
     # via -r requirements.test.in
-pytest-randomly==3.5.0
+pytest-randomly==3.6.0
     # via -r requirements.test.in
 pytest==6.2.2
     # via
