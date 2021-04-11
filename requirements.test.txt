@@ -6,12 +6,12 @@
 #
 attrs==20.3.0
     # via pytest
-backports.entry-points-selectable==1.0.3
-    # via pytest-randomly
 flake8==3.9.0
     # via -r requirements.test.in
 freezegun==1.0.0
     # via pytest-freezegun
+importlib-metadata==3.10.0
+    # via pytest-randomly
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
@@ -36,7 +36,7 @@ pytest-freezegun==0.4.2
     # via -r requirements.test.in
 pytest-mock==3.5.1
     # via -r requirements.test.in
-pytest-randomly==3.6.0
+pytest-randomly==3.7.0
     # via -r requirements.test.in
 pytest==6.2.3
     # via
@@ -56,3 +56,5 @@ typed-ast==1.4.2
     #   mypy
 typing-extensions==3.7.4.3
     # via mypy
+zipp==3.4.1
+    # via importlib-metadata
