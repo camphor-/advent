@@ -18,7 +18,7 @@ mccabe==0.6.1
     # via flake8
 mypy-extensions==0.4.3
     # via mypy
-mypy==0.812
+mypy==0.910
     # via -r requirements.test.in
 packaging==20.9
     # via pytest
@@ -49,11 +49,11 @@ python-dateutil==2.8.1
 six==1.15.0
     # via python-dateutil
 toml==0.10.2
-    # via pytest
-typed-ast==1.4.3
     # via
-    #   -r requirements.test.in
     #   mypy
+    #   pytest
+typed-ast==1.4.3
+    # via -r requirements.test.in
 typing-extensions==3.7.4.3
     # via mypy
 zipp==3.4.1
