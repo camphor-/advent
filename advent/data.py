@@ -2,13 +2,13 @@ from datetime import date, datetime
 from operator import attrgetter
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional
+from zoneinfo import ZoneInfo
 
-import pytz
 import yaml
 
 from advent.models import Author, Entry
 
-TIMEZONE = pytz.timezone("Asia/Tokyo")
+TIMEZONE = ZoneInfo("Asia/Tokyo")
 
 
 def load_authors(authors_file: Path) -> Dict[str, Author]:
