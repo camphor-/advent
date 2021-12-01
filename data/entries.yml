@@ -1352,14 +1352,16 @@
     - コミュニティ
 
 - date: 2021-12-01
-  author: 5ebec
+  author: null
   title: null
   url: null
   
 - date: 2021-12-02
-  author: null
-  title: null
-  url: null
+  author: 5ebec
+  title: 【ポケモンBDSP】自動孵化装置を作って高個体値色違いイーブイを手に入れる(夢を見た)
+  url: https://blog.5ebec.dev/posts/auto-hatching-in-pokemon-bdsp/
+  tags:
+    - 自動化
   
 - date: 2021-12-03
   author: shiba6v
