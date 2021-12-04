@@ -1378,8 +1378,11 @@
   
 - date: 2021-12-05
   author: morishin
-  title: null
-  url: null
+  title: ご家庭を支える定期実行ジョブの開発フロー
+  url: https://morishin.hatenablog.com/entry/private-cron-job-development
+  tags:
+    - 生活
+    - AWS
   
 - date: 2021-12-06
   author: null
