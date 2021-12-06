@@ -1394,8 +1394,10 @@
   
 - date: 2021-12-07
   author: lotz
-  title: null
-  url: null
+  title: 「アルゴ式」をHaskellで学ぶための準備
+  url: https://zenn.dev/lotz/articles/91e377138fc4a94f956c
+  tags:
+    - Haskell
   
 - date: 2021-12-08
   author: null
