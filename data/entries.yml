@@ -1422,8 +1422,11 @@
   
 - date: 2021-12-11
   author: panorama
-  title: null
-  url: null
+  title: 【Slack Bot開発】HubotとBoltを使用して感じたことまとめ
+  url: https://www.pan0rama-blog.com/post/slack-bolt-with-typescript/
+  tags:
+    - Slack
+    - Bot
   
 - date: 2021-12-12
   author: null
