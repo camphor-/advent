@@ -1475,9 +1475,12 @@
   
 - date: 2021-12-21
   author: genya0407
-  title: null
-  url: null
-  
+  title: ブラウザオンラインゲームを Ruby on Rails で作る
+  url: https://dawn.hateblo.jp/entry/game-on-hotwire
+  tags:
+    - Ruby on Rails
+    - Web
+
 - date: 2021-12-22
   author: sanposhiho
   title: null
