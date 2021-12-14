@@ -1447,6 +1447,9 @@
   author: atrn0
   title: 自作ラムダ計算インタプリタで階乗を計算する
   url: https://atrn0.github.io/p/lambda-interpreter
+  tags:
+    - OCaml
+    - ラムダ計算
   
 - date: 2021-12-16
   author: marty1martie
