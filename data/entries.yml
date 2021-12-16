@@ -1488,8 +1488,10 @@
 
 - date: 2021-12-22
   author: sanposhiho
-  title: null
-  url: null
+  title: Pod Topology Spread Constraintsのすべて
+  url: https://sanposhiho.com/posts/podtopologyspread/
+  tags:
+    - Kubernetes
   
 - date: 2021-12-23
   author: ymyzk
