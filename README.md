@@ -1,7 +1,7 @@
 advent
 ======
 
-[![Circle CI](https://circleci.com/gh/camphor-/advent.svg?style=shield&circle-token=b81bec23b8042e1a5cdd85f15fedcdc6bd3058b3)](https://circleci.com/gh/camphor-/advent)
+![GitHub Actions](https://github.com/camphor-/advent/actions/workflows/build-and-sync.yml/badge.svg?branch=master)
 
 CAMPHOR- Advent Calendar
 
