@@ -10,8 +10,6 @@ flake8==4.0.1
     # via -r requirements.test.in
 freezegun==1.1.0
     # via pytest-freezegun
-importlib-metadata==4.8.2
-    # via pytest-randomly
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
@@ -52,11 +50,9 @@ toml==0.10.2
     # via
     #   mypy
     #   pytest
-typed-ast==1.5.1
+typed-ast==1.5.2
     # via -r requirements.test.in
 types-pyyaml==6.0.1
     # via -r requirements.test.in
 typing-extensions==4.0.1
     # via mypy
-zipp==3.6.0
-    # via importlib-metadata
