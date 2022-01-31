@@ -4,19 +4,19 @@
 #
 #    pip-compile --output-file=requirements.test.txt requirements.test.in
 #
-attrs==21.2.0
+attrs==21.4.0
     # via pytest
 flake8==4.0.1
     # via -r requirements.test.in
 freezegun==1.1.0
     # via pytest-freezegun
-importlib-metadata==4.8.2
+importlib-metadata==4.10.1
     # via pytest-randomly
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
     # via flake8
-mypy==0.910
+mypy==0.931
     # via -r requirements.test.in
 mypy-extensions==0.4.3
     # via mypy
@@ -30,7 +30,7 @@ pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
     # via flake8
-pyparsing==3.0.6
+pyparsing==3.0.7
     # via packaging
 pytest==6.2.5
     # via
@@ -40,23 +40,23 @@ pytest==6.2.5
     #   pytest-randomly
 pytest-freezegun==0.4.2
     # via -r requirements.test.in
-pytest-mock==3.6.1
+pytest-mock==3.7.0
     # via -r requirements.test.in
-pytest-randomly==3.10.3
+pytest-randomly==3.11.0
     # via -r requirements.test.in
 python-dateutil==2.8.2
     # via freezegun
 six==1.16.0
     # via python-dateutil
 toml==0.10.2
-    # via
-    #   mypy
-    #   pytest
-typed-ast==1.5.1
+    # via pytest
+tomli==2.0.0
+    # via mypy
+typed-ast==1.5.2
     # via -r requirements.test.in
-types-pyyaml==6.0.1
+types-pyyaml==6.0.4
     # via -r requirements.test.in
 typing-extensions==4.0.1
     # via mypy
-zipp==3.6.0
+zipp==3.7.0
     # via importlib-metadata
