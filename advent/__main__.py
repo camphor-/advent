@@ -55,7 +55,6 @@ def run(debug: bool = False) -> None:
     }
 
     render_and_write("index.html", context)
-    render_and_write("amp.html", context)
     render_and_write("atom.xml", context)
 
 
