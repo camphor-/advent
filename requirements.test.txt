@@ -14,7 +14,7 @@ iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
     # via flake8
-mypy==0.971
+mypy==0.990
     # via -r requirements.test.in
 mypy-extensions==0.4.3
     # via mypy
@@ -47,9 +47,7 @@ python-dateutil==2.8.2
 six==1.16.0
     # via python-dateutil
 tomli==2.0.0
-    # via
-    #   mypy
-    #   pytest
+    # via pytest
 typed-ast==1.5.4
     # via -r requirements.test.in
 types-pyyaml==6.0.11
