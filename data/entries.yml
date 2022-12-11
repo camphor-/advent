@@ -1620,8 +1620,10 @@
 
 - date: 2022-12-19
   author: bono_social
-  title: null
-  url: null
+  title: KaTeXとMarkdownが使えるノート共有アプリを個人開発した話
+  url: https://bono-social.hatenablog.com/entry/notest
+  tags:
+    - 個人開発
 
 - date: 2022-12-20
   author: kmconner
