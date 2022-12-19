@@ -1629,8 +1629,11 @@
 
 - date: 2022-12-20
   author: kmconner
-  title: null
-  url: null
+  title: FlexiSpotの高さを計測する
+  url: https://kmconner.net/posts/2022/12/20-flexi-receiver/
+  tags:
+    - IoT
+    - 生活
 
 - date: 2022-12-21
   author: Saza
