@@ -1642,8 +1642,11 @@
 
 - date: 2022-12-22
   author: sho44
-  title: null
-  url: null
+  title: Swagger v3を使ってみよう!
+  url: https://zenn.dev/articles/e339985efa2492
+  tags:
+    - OpenAPI
+    - Swagger
 
 - date: 2022-12-23
   author: dora1998
