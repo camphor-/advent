@@ -1650,8 +1650,11 @@
 
 - date: 2022-12-23
   author: dora1998
-  title: null
-  url: null
+  title: Fly.io を触ってみた
+  url: https://blog.minoru.dev/2022/20221223-flyio-first-impression/
+  tags:
+    - Web
+    - サービス
 
 - date: 2022-12-24
   author: Saza
