@@ -1665,7 +1665,12 @@
   author: honai
   title: CAMPHOR- 2022年の総括 ～やりたいことに使ってもらえるコミュニティ～
   url: https://blog.camph.net/news/2022-advent-final/
-  
+
+- date: 2022-12-26
+  author: null
+  title: null
+  url: null
+
 - date: 2022-12-27
   author: and_es
   title: KUINS-AirにUbuntuをEAP-TLS(クライアント証明書)を用いて接続する - GUI編
