@@ -6,13 +6,13 @@
 #
 attrs==21.4.0
     # via pytest
-flake8==4.0.1
+flake8==6.0.0
     # via -r requirements.test.in
 freezegun==1.1.0
     # via pytest-freezegun
 iniconfig==1.1.1
     # via pytest
-mccabe==0.6.1
+mccabe==0.7.0
     # via flake8
 mypy==0.971
     # via -r requirements.test.in
@@ -24,9 +24,9 @@ pluggy==1.0.0
     # via pytest
 py==1.11.0
     # via pytest
-pycodestyle==2.8.0
+pycodestyle==2.10.0
     # via flake8
-pyflakes==2.4.0
+pyflakes==3.0.1
     # via flake8
 pyparsing==3.0.7
     # via packaging
@@ -47,9 +47,7 @@ python-dateutil==2.8.2
 six==1.16.0
     # via python-dateutil
 tomli==2.0.0
-    # via
-    #   mypy
-    #   pytest
+    # via pytest
 typed-ast==1.5.4
     # via -r requirements.test.in
 types-pyyaml==6.0.11
