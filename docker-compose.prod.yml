@@ -4,6 +4,3 @@ services:
   advent:
     image: registry.camph.net/advent:latest
     network_mode: none
-    volumes:
-      - ./data:/app/data:ro
-      - ./output:/app/output
