@@ -65,3 +65,9 @@ jobs:
                 image: 'registry.camph.net/advent:${{ needs.build.outputs.sha }}',
               }
             });
+
+      - name: Notify to Slack
+        uses: craftech-io/slack-action@v1
+        with:
+          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
