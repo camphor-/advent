@@ -58,7 +58,7 @@ jobs:
             github.rest.actions.createWorkflowDispatch({
               owner: 'camphor-',
               repo: 'kuina',
-              workflow_id: 'update-image-pull-request.yaml',
+              workflow_id: 'update-image.yaml',
               ref: 'master',
               inputs: {
                 directory: 'advent/base',
