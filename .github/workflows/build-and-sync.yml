@@ -8,53 +8,64 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    outputs:
+      sha: ${{ steps.slug.outputs.sha }}
     steps:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
+
       - name: Login to Docker Registry
         uses: docker/login-action@v1
         with:
           registry: registry.camph.net
           username: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
           password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+
       - name: Check out
         uses: actions/checkout@v2
-      - name: Build and push
-        uses: docker/build-push-action@v2
+
+      - name: Get short SHA
+        id: slug
+        shell: bash
+        run: echo "sha=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Build and push image
+        uses: docker/build-push-action@v3
         with:
+          file: Dockerfile
           push: true
-          tags: registry.camph.net/advent:latest
+          tags: registry.camph.net/advent:${{ steps.slug.outputs.sha }}
+          build-args: |
+            GITHUB_PAT=${{ secrets.GH_PAT }}
+
       - name: Notify to Slack
         uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: failure()
+
   sync:
     name: Sync
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Install SSH key
-        uses: shimataro/ssh-key-action@v2
+      - name: Update k8s yaml
+        uses: actions/github-script@v6
         with:
-          key: ${{ secrets.KONOE_SSH_KEY }}
-          name: id_rsa
-          known_hosts: ${{ secrets.KONOE_KNOWN_HOSTS }}
-      - name: Login to Docker Registry
-        uses: docker/login-action@v1
-        with:
-          registry: registry.camph.net
-          username: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
-          password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
-      - name: Check out
-        uses: actions/checkout@v2
-      - name: Build advent
-        run: |
-          docker-compose -f docker-compose.prod.yml pull
-          docker-compose -f docker-compose.prod.yml up --force-recreate
-      - name: rsync output
-        run: rsync -r $PWD/output -e "ssh -p ${{ secrets.KONOE_SSH_PORT }}" ${{ secrets.KONOE_SSH_USERNAME }}@${{ secrets.KONOE_SSH_HOST }}:/home/deploy/advent
+          github-token: ${{secrets.GH_PAT}}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: 'camphor-',
+              repo: 'kuina',
+              workflow_id: 'update-image.yaml',
+              ref: 'master',
+              inputs: {
+                directory: 'advent/base',
+                image: 'registry.camph.net/advent:${{ needs.build.outputs.sha }}',
+              }
+            });
+
       - name: Notify to Slack
         uses: craftech-io/slack-action@v1
         with:
