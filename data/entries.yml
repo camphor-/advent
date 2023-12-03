@@ -1700,8 +1700,11 @@
 
 - date: 2023-12-04
   author: mikiken
-  title: Pythonでエアコンのリモコン信号を解析し生成できるようにする
-  url: null
+  title: Pythonでエアコンのリモコン信号をデコードしパースする
+  url: https://zenn.dev/mikiken/articles/decode-ir-signal
+  tags:
+    - スマートホーム
+    - Python
 
 - date: 2023-12-05
   author: mikiken
