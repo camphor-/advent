@@ -1688,8 +1688,8 @@
   title: お手軽可視化ライブラリWandbを使ってみよう
   url: https://qiita.com/NH0/items/88ea528e02678f4cb7ff
   tags:
-    - 機械学習
-    - Python
+    - 強化学習
+    - WandB
 
 - date: 2023-12-03
   author: NH
