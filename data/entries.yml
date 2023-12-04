@@ -1708,8 +1708,11 @@
 
 - date: 2023-12-05
   author: mikiken
-  title: null
-  url: null
+  title: Pythonでエアコンのリモコン信号を解析し自在に操作できるようにする
+  url: https://zenn.dev/mikiken/articles/encode-ir-signal
+  tags:
+    - スマートホーム
+    - Python
 
 - date: 2023-12-06
   author: Saza
