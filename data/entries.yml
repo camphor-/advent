@@ -1764,9 +1764,11 @@
     - FPGA
 
 - date: 2023-12-14
-  author: null
-  title: null
-  url: null
+  author: NH
+  title: Rustで逆三角/三角関数の実行時間を測る
+  url: https://qiita.com/NH0/items/479318534b4f7c32b2ba
+  tags:
+    - Rust
 
 - date: 2023-12-15
   author: null
