@@ -1772,9 +1772,13 @@
     - 数値計算
 
 - date: 2023-12-15
-  author: null
-  title: null
-  url: null
+  author: 暇人窟
+  title: 数値計算で慣れようC++　Part1. 有理数型で学ぶクラス
+  url: https://qiita.com/artic-plus/items/3c608a8fc5073c29cb50
+  tags:
+    - C++
+    - 数値計算
+    - オブジェクト指向
 
 - date: 2023-12-16
   author: null
