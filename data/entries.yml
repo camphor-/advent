@@ -1781,9 +1781,13 @@
     - オブジェクト指向
 
 - date: 2023-12-16
-  author: null
-  title: null
-  url: null
+  author: 暇人窟
+  title: 数値計算で慣れようC++　Part2. 行列積を実装しよう
+  url: https://qiita.com/artic-plus/items/2222bf200511747c0970
+    tags:
+    - C++
+    - 数値計算
+    - オブジェクト指向
 
 - date: 2023-12-17
   author: null
