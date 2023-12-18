@@ -1800,9 +1800,13 @@
   url: null
 
 - date: 2023-12-19
-  author: null
-  title: null
-  url: null
+  author: Saza
+  title: Starlink を使って鴨川でハッカソンを開催した話
+  url: https://blog.camph.net/news/kamogawa-hackathon-2023/
+  tags:
+    - CAMPHOR-
+    - イベント
+    - ハッカソン
 
 - date: 2023-12-20
   author: null
