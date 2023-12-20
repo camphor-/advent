@@ -1814,9 +1814,12 @@
   url: https://blog.saza.dev/posts/yearly-poem-2023
 
 - date: 2023-12-21
-  author: null
-  title: null
-  url: null
+  author: mikiken
+  title: 自作サイト用にOGP画像を自動生成するツールを作った
+  url: https://mikiken.net/posts/impl-ogp-image
+  tags:
+    - Web
+    - Go
 
 - date: 2023-12-22
   author: null
