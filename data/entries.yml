@@ -1822,9 +1822,13 @@
     - Go
 
 - date: 2023-12-22
-  author: null
-  title: null
-  url: null
+  author: yuzu
+  title: 競技プログラミング入門会を開催しました！
+  url: https://blog.camph.net/news/competitive-programming-introduction-2023/
+  tags:
+    - CAMPHOR-
+    - イベント
+    - 競技プログラミング
 
 - date: 2023-12-23
   author: null
